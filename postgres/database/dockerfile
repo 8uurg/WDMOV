@@ -1,0 +1,3 @@
+FROM postgres
+COPY cfg.sql /docker-entrypoint-initdb.d/
+# Make sure data is mounted at /data via ovcsvdata!
