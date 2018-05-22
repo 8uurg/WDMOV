@@ -40,6 +40,5 @@ while True:
     print("Receiving from channel %s" % topic.decode("utf-8"))
 
     raw_compressed_response = recv_sock.recv()
-    send_sock.send(topic)
-    send_sock.send(raw_compressed_response)
+    send_sock.send_multipart([topic, raw_compressed_response])
 
