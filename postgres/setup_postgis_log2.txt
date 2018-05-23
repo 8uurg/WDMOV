@@ -1,0 +1,69 @@
+db_1  | Timing is on.
+db_1  | CREATE TABLE
+db_1  | Time: 20.333 ms
+db_1  | ALTER TABLE
+db_1  | Time: 3.267 ms
+db_1  | CREATE TABLE
+db_1  | Time: 13.444 ms
+db_1  | ALTER TABLE
+db_1  | Time: 2.605 ms
+db_1  | CREATE TABLE
+db_1  | Time: 13.234 ms
+db_1  | ALTER TABLE
+db_1  | Time: 3.471 ms
+db_1  | CREATE TABLE
+db_1  | Time: 17.569 ms
+db_1  | ALTER TABLE
+db_1  | Time: 3.174 ms
+db_1  | COPY 49605
+db_1  | Time: 259.521 ms
+db_1  | COPY 2698
+db_1  | Time: 27.782 ms
+db_1  | COPY 779815
+db_1  | Time: 8583.245 ms (00:08.583)
+db_1  | 2018-05-23 13:22:59.208 UTC [39] LOG:  checkpoints are occurring too frequently (20 seconds apart)
+db_1  | 2018-05-23 13:22:59.208 UTC [39] HINT:  Consider increasing the configuration parameter "max_wal_size".
+db_1  | 2018-05-23 13:23:15.152 UTC [39] LOG:  checkpoints are occurring too frequently (16 seconds apart)
+db_1  | 2018-05-23 13:23:15.152 UTC [39] HINT:  Consider increasing the configuration parameter "max_wal_size".
+db_1  | 2018-05-23 13:23:37.067 UTC [39] LOG:  checkpoints are occurring too frequently (22 seconds apart)
+db_1  | 2018-05-23 13:23:37.067 UTC [39] HINT:  Consider increasing the configuration parameter "max_wal_size".
+db_1  | 2018-05-23 13:23:58.583 UTC [39] LOG:  checkpoints are occurring too frequently (21 seconds apart)
+db_1  | 2018-05-23 13:23:58.583 UTC [39] HINT:  Consider increasing the configuration parameter "max_wal_size".
+db_1  | 2018-05-23 13:24:19.507 UTC [39] LOG:  checkpoints are occurring too frequently (21 seconds apart)
+db_1  | 2018-05-23 13:24:19.507 UTC [39] HINT:  Consider increasing the configuration parameter "max_wal_size".
+db_1  | 2018-05-23 13:24:39.330 UTC [39] LOG:  checkpoints are occurring too frequently (20 seconds apart)
+db_1  | 2018-05-23 13:24:39.330 UTC [39] HINT:  Consider increasing the configuration parameter "max_wal_size".
+db_1  | 2018-05-23 13:24:56.961 UTC [39] LOG:  checkpoints are occurring too frequently (17 seconds apart)
+db_1  | 2018-05-23 13:24:56.961 UTC [39] HINT:  Consider increasing the configuration parameter "max_wal_size".
+db_1  | 2018-05-23 13:25:11.352 UTC [39] LOG:  checkpoints are occurring too frequently (15 seconds apart)
+db_1  | 2018-05-23 13:25:11.352 UTC [39] HINT:  Consider increasing the configuration parameter "max_wal_size".
+db_1  | 2018-05-23 13:25:25.259 UTC [39] LOG:  checkpoints are occurring too frequently (14 seconds apart)
+db_1  | 2018-05-23 13:25:25.259 UTC [39] HINT:  Consider increasing the configuration parameter "max_wal_size".
+db_1  | 2018-05-23 13:25:40.016 UTC [39] LOG:  checkpoints are occurring too frequently (15 seconds apart)
+db_1  | 2018-05-23 13:25:40.016 UTC [39] HINT:  Consider increasing the configuration parameter "max_wal_size".
+db_1  | 2018-05-23 13:25:51.968 UTC [39] LOG:  checkpoints are occurring too frequently (11 seconds apart)
+db_1  | 2018-05-23 13:25:51.968 UTC [39] HINT:  Consider increasing the configuration parameter "max_wal_size".
+db_1  | 2018-05-23 13:26:03.518 UTC [39] LOG:  checkpoints are occurring too frequently (12 seconds apart)
+db_1  | 2018-05-23 13:26:03.518 UTC [39] HINT:  Consider increasing the configuration parameter "max_wal_size".
+db_1  | 2018-05-23 13:26:14.952 UTC [39] LOG:  checkpoints are occurring too frequently (11 seconds apart)
+db_1  | 2018-05-23 13:26:14.952 UTC [39] HINT:  Consider increasing the configuration parameter "max_wal_size".
+db_1  | 2018-05-23 13:26:27.440 UTC [39] LOG:  checkpoints are occurring too frequently (13 seconds apart)
+db_1  | 2018-05-23 13:26:27.440 UTC [39] HINT:  Consider increasing the configuration parameter "max_wal_size".
+db_1  | 2018-05-23 13:26:39.208 UTC [39] LOG:  checkpoints are occurring too frequently (12 seconds apart)
+db_1  | 2018-05-23 13:26:39.208 UTC [39] HINT:  Consider increasing the configuration parameter "max_wal_size".
+db_1  | 2018-05-23 13:26:48.563 UTC [39] LOG:  checkpoints are occurring too frequently (9 seconds apart)
+db_1  | 2018-05-23 13:26:48.563 UTC [39] HINT:  Consider increasing the configuration parameter "max_wal_size".
+db_1  | 2018-05-23 13:26:57.994 UTC [39] LOG:  checkpoints are occurring too frequently (9 seconds apart)
+db_1  | 2018-05-23 13:26:57.994 UTC [39] HINT:  Consider increasing the configuration parameter "max_wal_size".
+db_1  | 2018-05-23 13:27:08.626 UTC [39] LOG:  checkpoints are occurring too frequently (11 seconds apart)
+db_1  | 2018-05-23 13:27:08.626 UTC [39] HINT:  Consider increasing the configuration parameter "max_wal_size".
+db_1  | 2018-05-23 13:27:20.262 UTC [39] LOG:  checkpoints are occurring too frequently (12 seconds apart)
+db_1  | 2018-05-23 13:27:20.262 UTC [39] HINT:  Consider increasing the configuration parameter "max_wal_size".
+db_1  | 2018-05-23 13:27:31.582 UTC [39] LOG:  checkpoints are occurring too frequently (11 seconds apart)
+db_1  | 2018-05-23 13:27:31.582 UTC [39] HINT:  Consider increasing the configuration parameter "max_wal_size".
+db_1  | 2018-05-23 13:27:40.650 UTC [39] LOG:  checkpoints are occurring too frequently (9 seconds apart)
+db_1  | 2018-05-23 13:27:40.650 UTC [39] HINT:  Consider increasing the configuration parameter "max_wal_size".
+db_1  | 2018-05-23 13:27:51.922 UTC [39] LOG:  checkpoints are occurring too frequently (11 seconds apart)
+db_1  | 2018-05-23 13:27:51.922 UTC [39] HINT:  Consider increasing the configuration parameter "max_wal_size".
+db_1  | COPY 16207430
+db_1  | Time: 605275.491 ms (10:05.275)

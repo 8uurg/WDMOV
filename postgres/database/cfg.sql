@@ -1,6 +1,7 @@
 --
 -- Create tables
 --
+\timing
 
 CREATE TABLE routes (
     route_id integer PRIMARY KEY,
