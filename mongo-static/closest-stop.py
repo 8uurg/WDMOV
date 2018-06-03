@@ -8,8 +8,7 @@ db = client.WDMOV
 
 ewi_building = [4.373502, 51.998847]
 
-start = time.time()
-the_20_closest_stops_to_ewi = db.stops.find({
+the_20_closest_stops_to_ewi_perf = db.stops.find({
     "loc": {
         "$near": {
             "$geometry": {
@@ -19,10 +18,7 @@ the_20_closest_stops_to_ewi = db.stops.find({
             "$maxDistance": 5000
         }
     }
-}).limit(20)
-end = time.time()
-print("The query took %s milliseconds" % ((end - start)*1000))
+}).limit(20).explain()["executionStats"]
 
-
-for stop in the_20_closest_stops_to_ewi:
-    print(stop)
+print("Querying for the 20 closests stop to the EWI building takes: %f ms" %
+        the_20_closest_stops_to_ewi_perf["executionTimeMillis"])
