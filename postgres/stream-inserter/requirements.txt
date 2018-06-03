@@ -1,0 +1,3 @@
+zmq
+bs4
+psycopg2
