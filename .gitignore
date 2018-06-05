@@ -105,3 +105,4 @@ venv.bak/
 
 # data files
 **/data/*.txt
+gtfs-openov-nl.zip

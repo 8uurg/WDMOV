@@ -1,0 +1,769 @@
+     stop_id     |                    stop_name                     |     stop_id     |                    stop_name                     |       distance
+-----------------+--------------------------------------------------+-----------------+--------------------------------------------------+----------------------
+ 14843           | Amsterdam, P.A. v. Heijningestraat               | 362221          | Amsterdam, P.A. van Heijningestraat              |                    0
+ 1216824         | Den Haag, van Musschenbroekstraat                | 629652          | Den Haag, Van Musschenbroekstraat                |                    0
+ 355333          | Nijmegen, Station Dukenburg (A)                  | 357415          | Nijmegen, Station Dukenburg (C)                  |                    0
+ 1501773         | Wervershoof, Vok Koomenweg                       | 940153          | Wervershoof, V. Koomenweg                        |                    0
+ 357417          | Nijmegen, Station Dukenburg (E)                  | 357418          | Nijmegen, Station Dukenburg (F)                  |                    0
+ 1377603         | Haarlem, Station F                               | 511218          | Haarlem, Station                                 |                    0
+ 859733          | Amsterdam Van der Madeweg                        | 96467           | Amsterdam, Van der Madeweg                       |                    0
+ 1332992         | Winsum, Station (Perron B)                       | 1333770         | Winsum, Station (Perron A)                       |                    0
+ 644235          | St. Maartensvlotbrug, G. v/d Sluisstraat         | 644236          | St. Maartensvlotbrug, G.v/d Sluisstraat          |                    0
+ 1331218         | Emmen, Station (Perron E)                        | 1333793         | Emmen, Station (Perron H)                        |                    0
+ 1501489         | Krimpen ad IJssel, Raadhuisplein                 | 80624           | Krimpen a/d IJssel, Raadhuisplein                |                    0
+ 1501324         | Delft, Station Delft Perron E                    | 1501697         | Delft, Station Delft (Perron E)                  |                    0
+ 1217760         | Delft, Station Delft (Perron G)                  | 1501698         | Delft, Station Delft (Perron F)                  |                    0
+ 1501688         | Wervershoof, Vok Koomenweg                       | 939527          | Wervershoof, V. Koomenweg                        |                    0
+ 547466          | Sas van Gent, Bolwerk                            | 547467          | Sas Van Gent, Bolwerk                            |                    0
+ 357416          | Nijmegen, Station Dukenburg (D)                  | 357417          | Nijmegen, Station Dukenburg (E)                  |                    0
+ 1332483         | Emmen, Station (Perron K)                        | 1480319         | Emmen, Station (Perron J)                        |                    0
+ 357414          | Nijmegen, Station Dukenburg (B)                  | 357415          | Nijmegen, Station Dukenburg (C)                  |                    0
+ 681248          | Catsop, Op de Dries                              | 681259          | Catops, Op de Dries                              |                    0
+ 1331662         | Assen, Station (Perron E)                        | 1332630         | Assen, Station (Perron F)                        |                    0
+ 357392          | Druten, Hermes garage                            | 8790            | Druten, Hermes Garage                            |                    0
+ 357416          | Nijmegen, Station Dukenburg (D)                  | 357418          | Nijmegen, Station Dukenburg (F)                  |                    0
+ 355333          | Nijmegen, Station Dukenburg (A)                  | 357414          | Nijmegen, Station Dukenburg (B)                  |                    0
+ 653731          | Groningen, v. K. Verschuurbrug                   | 654325          | Groningen, v K. Verschuurbrug                    |                    0
+ 1356164         | Den Haag, De Uithof (spoor 2)                    | 1356197         | Den Haag, De Uithof (spoor 1)                    |                    0
+ 506699          | Leiden, Centraal                                 | 53896           | Leiden Centraal                                  | 0.000401692078175526
+ 506806          | Leiden, Centraal                                 | 53896           | Leiden Centraal                                  | 0.000401692078175526
+ 1400973         | Leiden, Centraal                                 | 53896           | Leiden Centraal                                  | 0.000401692097785557
+ 1217165         | Delft, Station Delft (Perron I)                  | 1501696         | Delft, Station Delft (Perron H)                  | 0.000527139143567224
+ 1331439         | Hoogeveen, Station (Perron C)                    | 1334195         | Hoogeveen, Station (Perron B)                    | 0.000527139144006733
+ 1377881         | Loppersum, Station (Perron D)                    | 653595          | Loppersum, Station (Perron C)                    | 0.000527139144006733
+ 1333250         | Winsum, Station (Perron C)                       | 1333770         | Winsum, Station (Perron A)                       | 0.000527139144446242
+ 1332992         | Winsum, Station (Perron B)                       | 1333250         | Winsum, Station (Perron C)                       | 0.000527139144446242
+ 363399          | Druten, Hermes garage                            | 8475            | Druten, Hermes Garage                            |  0.00060999246478392
+ 1333368         | Korhorn, Hornhuusstraat                          | 1334148         | Kornhorn, Hornhuusstraat                         |  0.00061204020319403
+ 1217161         | Delft, Station Delft (Perron H)                  | 1501758         | Delft, Station Delft (Perron G)                  | 0.000648979069487529
+ 1420643         | Haarlem, Station C                               | NL:S:55000050   | Haarlem, Station                                 |  0.00070125667730512
+ 1329489         | De Bilt, Tunneltje De Bilt                       | 675739          | De Bilt, Tunneltje de Bilt                       | 0.000790708715790345
+ 1099931         | Delft, TU Mekelpark                              | 1216986         | Delft, TU - Mekelpark                            | 0.000820526904283682
+ 1401000         | IJsselstein, Van Der Voort                       | 675302          | IJsselstein, Van der Voort                       | 0.000836002709176034
+ 506739          | Leiden, Centraal                                 | 53896           | Leiden Centraal                                  |  0.00096624055370905
+ 53896           | Leiden Centraal                                  | 744090          | Leiden, Centraal                                 | 0.000966240630377984
+ 1100327         | Krimpen ad IJssel, Koekoekstraat                 | 1401020         | Krimpen a/d IJssel, Koekoekstraat                |  0.00105427828801347
+ 1134564         | Nieuwerkerk ad IJssel, Begoniaveld               | 1440604         | Nieuwerkerk a/d IJssel, Begoniaveld              |  0.00123799171094386
+ 1420753         | Tiel, Laan van Westroyen                         | 9087            | Tiel, Laan van Westroijen                        |  0.00124009069326251
+ 1332638         | Meppel, Burg. Knopperslaan                       | 419441          | Meppel, Burgem. Knopperslaan                     |  0.00131784785979708
+ 1100237         | Krimpen ad IJssel, Nieuwe Vliet                  | 252488          | Krimpen a/d IJssel, Nieuwe Vliet                 |  0.00131784785979708
+ 1134403         | Nieuwerkerk ad IJssel, Ringvaartlaan             | 1401038         | Nieuwerkerk a/d IJssel, Ringvaartlaan            |  0.00131847286293788
+ 103713          | Zeeland, Udenseweg N265                          | 418928          | Zeeland, Udenseweg/N265                          |  0.00133404615827376
+ 1501136         | Nieuwerkerk ad IJssel, Raadhuisplein             | 82747           | Nieuwerkerk a/d IJssel, Raadhuisplein            |  0.00134576143891363
+ 1332167         | Assen, M.L. Kingweg (Perron C)                   | 1333857         | Assen, M.L. Kingweg (Perron A)                   |  0.00135533487377175
+ 1332505         | Assen, M.L. Kingweg (Perron B)                   | 1332687         | Assen, M.L. Kingweg (Perron D)                   |  0.00135533680585303
+ 506707          | Leiden, Centraal                                 | 53896           | Leiden Centraal                                  |  0.00137918247862455
+ 1332929         | Zuurdijk, Hoofweg 19                             | 1333712         | Zuurdijk, Hoofdweg 19                            |  0.00143714884333074
+ 1501339         | Krimpen ad IJssel, Industrieweg                  | 98652           | Krimpen a/d IJssel, Industrieweg                 |  0.00144364378390478
+ 1135654         | Capelle ad IJssel, Schollevaartsedreef           | 223088          | Capelle a/d IJssel, Schollevaartsedreef          |  0.00145177957098531
+ 103878          | Weesp, J.H.Leopoldhof                            | 360611          | Weesp, J.H. Leopoldhof                           |  0.00145828625530367
+ 650836          | Wijk bij Duurstede, Steenstraat-Centrum          | 675896          | Wijk bij Duurstede, Steenstraat/Centrum          |  0.00146032650790366
+ 1134375         | Nieuwerkerk ad IJssel, Vrijheidslaan             | 82233           | Nieuwerkerk a/d IJssel, Vrijheidslaan            |  0.00146924014894792
+ 1332018         | Delfzijl, Station (Perron D)                     | 654644          | Delfzijl, Station (Perron E)                     |  0.00147789469397137
+ 1333419         | Emmen, Ln v.h. Kinholt 1                         | 1333455         | Emmen, Ln v.h. Kinholt 4                         |  0.00163918252371504
+ 1217163         | Delft, Station Delft (Perron F)                  | 1501697         | Delft, Station Delft (Perron E)                  |  0.00180753509214644
+ 506827          | Leiden, Centraal                                 | 53896           | Leiden Centraal                                  |  0.00181425537303358
+ 287425          | Middenbeemster, K.Hogetoornlaan                  | 521230          | Middenbeemster, K. Hogetoornlaan                 |  0.00184498700424332
+ 287426          | Middenbeemster, K.Hogetoornlaan                  | 521230          | Middenbeemster, K. Hogetoornlaan                 |  0.00184498700424332
+ 238109          | Vianen, Busstation Lekbrug (oost)                | NL:S:51340241   | Vianen, Busstation Lekbrug (Oost)                |  0.00184498700512234
+ 1134374         | Nieuwerkerk ad IJssel, Bospolderstraat           | 81367           | Nieuwerkerk a/d IJssel, Bospolderstraat          |  0.00190149614966568
+ 1332546         | Hoogeveen, Het Haagje                            | 866995          | Hoogeveen, 't Haagje                             |  0.00193361824807494
+ 1134945         | Zoetermeer, Centrum-West (spoor 6)               | 1134949         | Zoetermeer, Centrum-West (spoor 4)               |  0.00193624691039954
+ 1054            | Hoog-Keppel, Weg naar Hoog-Keppel                | 416288          | Hoog Keppel, Weg naar Hoog Keppel                |  0.00193910790880947
+ 1333343         | De Punt, Busstation (Perron A)                   | 1333604         | De Punt, Busstation (Perron B)                   |  0.00194412384451962
+ 417157          | Laag Keppel, 't Smaaleke                         | 434             | Laag-Keppel, 't Smaaleke                         |  0.00194920310898867
+ 1377653         | Haarlem, Station B                               | 1420643         | Haarlem, Station C                               |  0.00195397057026026
+ 1377888         | Delfzijl, Station (Perron A)                     | 1378265         | Delfzijl, Station (Perron C)                     |  0.00196250529446952
+ 418498          | Meppel, Burgem. Knopperslaan                     | 867400          | Meppel, Burg. Knopperslaan                       |  0.00196590453997193
+ 1356158         | Den Haag, Station Hollands Spoor (perron A)      | 1356188         | Den Haag, Station Hollands Spoor (perron B)      |  0.00222038978133336
+ 1100686         | Zoetermeer, Rokkeveenseweg Zuid                  | 1217076         | Zoetermeer, Rokkeveenseweg-zuid                  |  0.00222077957505961
+ 1329507         | Utrecht, Sterrenwijk (Perron A)                  | 1330363         | Utrecht, Sterrenwijk (Perron B)                  |  0.00224300094516828
+ 238183          | Laag-Keppel, Manege                              | 418938          | Laag Keppel, Manege                              |  0.00225186297704162
+ 1099925         | Delft, TU Technopolis                            | 1217171         | Delft, TU - Technopolis                          |  0.00225188757186775
+ 327334          | Amsterdam, G.J. Scheurleerweg                    | 560715          | Amsterdam, G.J.Scheurleerweg                     |  0.00227075460460026
+ 1420562         | Laag Keppel, 't Smaaleke                         | 1440350         | Laag-Keppel, 't Smaaleke                         |  0.00237212614781054
+ 1100508         | Capelle ad IJssel, Schermerhoek                  | 223188          | Capelle a/d IJssel, Schermerhoek                 |  0.00244913091587763
+ 416137          | Hoog Keppel, Burg. Vrijlandweg                   | 562             | Hoog-Keppel, Burg. Vrijlandweg                   |  0.00247443326270904
+ 238181          | Hoog-Keppel, Burg. Vrijlandweg                   | 418151          | Hoog Keppel, Burg. Vrijlandweg                   |  0.00247446447422214
+ 1237599         | Zwolle, Station/Uitstaphalte                     | 416772          | Zwolle, Station Uitstaphalte                     |  0.00252230259775283
+ 1378196         | Meppel, Station (Perron B)                       | 1401118         | Meppel, Station (Perron A)                       |  0.00253161783421607
+ 1421400         | Venlo, Station Perron C                          | 1421533         | Venlo, Station Perron B                          |   0.0025441994507326
+ 1356159         | Den Haag, Markenseplein (spoor 2)                | 1356168         | Den Haag, Markenseplein (spoor 1)                |  0.00259296980476231
+ 1101075         | Landsmeer, Van Beekstraat                        | 1377213         | Landsmeer, van Beekstraat                        |  0.00261145946807948
+ 222956          | Reek, Mgr. Borretstraat                          | 416837          | Reek, Mgr Borretstraat                           |  0.00261164574176128
+ 1377653         | Haarlem, Station B                               | NL:S:55000050   | Haarlem, Station                                 |  0.00261726021494029
+ 1356135         | Utrecht, CS Jaarbeursplein (Perron G3)           | 1356136         | Utrecht, CS Jaarbeursplein (Perron G4)           |   0.0026215291017624
+ 1330009         | Zeist, Busstation (Perron A)                     | 1400521         | Zeist, Busstation (Perron C)                     |  0.00262153328687671
+ 1329247         | Odijk, N229-Zeisterweg (Perron C)                | 1330297         | Odijk, N229-Zeisterweg (Perron D)                |  0.00263396728169411
+ 13574           | Amsterdam, Boven IJ Ziekenhuis                   | 15710           | Amsterdam, BovenIJ ziekenhuis                    |  0.00263569572091268
+ 103878          | Weesp, J.H.Leopoldhof                            | 664900          | Weesp, J.H. Leopoldhof                           |  0.00264361978837298
+ 1356160         | Den Haag, Van Boetzelaerlaan (spoor 1)           | 1356171         | Den Haag, Van Boetzelaerlaan (spoor 2)           |   0.0026849895872001
+ 361250          | Den Helder, Station NS                           | NL:S:34000010   | Den Helder, Station                              |  0.00270655669210595
+ 1420040         | Amsterdam, P.A. van Heijningestraat              | 14846           | Amsterdam, P.A. v. Heijningestraat               |  0.00270828950918242
+ 1100808         | Delft, TU Technopolis                            | 1217654         | Delft, TU - Technopolis                          |  0.00272777203885403
+ 1440572         | Zoetermeer, Centrum West                         | 979793          | Zoetermeer, Centrum-West                         |  0.00280066966997909
+ 1420901         | 's-Hertogenbosch, Centraal Station (J)           | 1421036         | 's-Hertogenbosch, Centraal Station (K)           |  0.00289809152638317
+ 1215521         | Vianen, Busstation Lekbrug (oost)                | NL:S:51340241   | Vianen, Busstation Lekbrug (Oost)                |  0.00291177564028018
+ 13478           | Amsterdam, Boven IJ Ziekenhuis                   | 15634           | Amsterdam, BovenIJ ziekenhuis                    |  0.00292409481197029
+ 1329555         | Nieuwegein, Stadscentrum (Perron E)              | 650859          | Nieuwegein, Stadscentrum (Perron D)              |  0.00299252639422761
+ 1356137         | Utrecht, CS Jaarbeursplein (Perron G5)           | 1356138         | Utrecht, CS Jaarbeursplein (Perron G6)           |  0.00301585928117762
+ 1356133         | Utrecht, CS Jaarbeursplein (Perron G1)           | 1356134         | Utrecht, CS Jaarbeursplein (Perron G2)           |  0.00301586390226675
+ 1356157         | Den Haag, Station Hollands Spoor (perron C)      | 1356189         | Den Haag, Station Hollands Spoor (perron D)      |   0.0030542386167989
+ 1217118         | Zoetermeer, Rokkeveenseweg-zuid                  | 1377795         | Zoetermeer, Rokkeveenseweg Zuid                  |  0.00305977805865324
+ 1333342         | Appingedam, Busstation (Perron B)                | 1333605         | Appingedam, Busstation (Perron C)                |   0.0030897642081319
+ 1331588         | Meppel, Station (Perron D)                       | 1333410         | Meppel, Station (Perron C)                       |  0.00310036660729286
+ 1331315         | Meppel, Station (Perron C)                       | 1331588         | Meppel, Station (Perron D)                       |  0.00310036660729286
+ 1134079         | Vianen, Busstation Lekbrug Oost (Perron G)       | 1330364         | Vianen, Busstation Lekbrug Oost (Perron H)       |  0.00310402894950323
+ 1421038         | 's-Hertogenbosch, Centraal Station (I)           | 1421040         | 's-Hertogenbosch, Centraal Station (H)           |  0.00312872877887596
+ 1331499         | Delfzijl, Station (Perron F)                     | 654644          | Delfzijl, Station (Perron E)                     |  0.00313347951091949
+ 1217522         | Delft, TU - Kluyverpark                          | 558652          | Delft, TU Kluyverpark                            |   0.0031484381704252
+ 1331989         | Groningen, Hoofdstation (Perron Z)               | 1331990         | Groningen, Hoofdstation (Perron Y)               |  0.00316308101624997
+ 1330967         | Emmen, Station (Perron D)                        | 1331218         | Emmen, Station (Perron E)                        |  0.00316339958549274
+ 1330967         | Emmen, Station (Perron D)                        | 1333793         | Emmen, Station (Perron H)                        |  0.00316339958549274
+ 325156          | Nieuw Vossemeer, Slaakdam                        | 435394          | Nieuw-Vossemeer, Slaakdam                        |  0.00318904675253458
+ 1217741         | Wassenaar, van Oldenbarneveltweg                 | 1376971         | Wassenaar, Van Oldenbarneveltweg                 |  0.00322047463754846
+ 1421041         | 's-Hertogenbosch, Centraal Station (E)           | 1421042         | 's-Hertogenbosch, Centraal Station (F)           |  0.00322334009409408
+ 672542          | IJsselstein, Van der Voort                       | 81597           | IJsselstein, Van Der Voort                       |  0.00322469461572175
+ 1100652         | Krimpen ad IJssel, Koekoekstraat                 | 82882           | Krimpen a/d IJssel, Koekoekstraat                |  0.00322496437469703
+ 361249          | Den Helder, Station                              | NL:S:34000010   | Den Helder, Station                              |  0.00322993860933061
+ 1501698         | Delft, Station Delft (Perron F)                  | 1501758         | Delft, Station Delft (Perron G)                  |  0.00323541278406313
+ 1421039         | 's-Hertogenbosch, Centraal Station (G)           | 1421042         | 's-Hertogenbosch, Centraal Station (F)           |  0.00325923003526273
+ 1331196         | Loppersum, Station (Perron B)                    | 1377881         | Loppersum, Station (Perron D)                    |  0.00330098379287985
+ 1421486         | Venray, Station B                                | NL:S:69710500   | Venray, Station                                  |  0.00335774917331947
+ 1133639         | Rotterdam, Zuidplein perron K                    | 1196136         | Rotterdam, Zuidplein perron L                    |  0.00337879658538346
+ 1333551         | Assen, Selma Lagerlöflaan                        | 649957          | Assen, Selma Lagerloflaan                        |  0.00338039472339574
+ 1420901         | 's-Hertogenbosch, Centraal Station (J)           | 1421038         | 's-Hertogenbosch, Centraal Station (I)           |  0.00339137179871448
+ 1420902         | 's-Hertogenbosch, Centraal Station (D)           | 1421043         | 's-Hertogenbosch, Centraal Station (C)           |  0.00339137640885807
+ 1420730         | Amsterdam, G.v. Ledenberchstraat                 | 15324           | Amsterdam, G. v.Ledenberchstraat                 |   0.0033924663031483
+ 402565          | Eemnes, BEL kantoor                              | 671962          | Eemnes, BEL-kantoor                              |  0.00339374605663578
+ 363770          | Laag Keppel, Manege                              | 945             | Laag-Keppel, Manege                              |   0.0033963391185646
+ 1501696         | Delft, Station Delft (Perron H)                  | 1501700         | Delft, Station Delft (Perron I)                  |   0.0034130417011011
+ 1331196         | Loppersum, Station (Perron B)                    | 653595          | Loppersum, Station (Perron C)                    |  0.00350512063078224
+ 1217161         | Delft, Station Delft (Perron H)                  | 1217165         | Delft, Station Delft (Perron I)                  |  0.00357520368224812
+ 1217163         | Delft, Station Delft (Perron F)                  | 1217760         | Delft, Station Delft (Perron G)                  |  0.00357520703607328
+ 1217162         | Delft, Station Delft (Perron E)                  | 1217163         | Delft, Station Delft (Perron F)                  |  0.00357520860167376
+ 1501438         | Krimpen ad IJssel, Raadhuisplein                 | 80784           | Krimpen a/d IJssel, Raadhuisplein                |  0.00358062600205454
+ 1421497         | Venlo, Station Perron E                          | 1421562         | Venlo, Station Perron D                          |   0.0036127317621487
+ 1217162         | Delft, Station Delft (Perron E)                  | 1501324         | Delft, Station Delft Perron E                    |  0.00365172346904592
+ 103928          | Amsterdam, Van Boshuizenstraat                   | 364278          | Amsterdam, van Boshuizenstraat                   |  0.00366544804561675
+ 1400484         | Nieuwegein, Stadscentrum (Perron G)              | 650662          | Nieuwegein, Stadscentrum (Perron F)              |  0.00367169004270347
+ 415754          | Nijmegen, Plein 1944 (C)                         | 415757          | Nijmegen, Plein 1944 (D)                         |  0.00367557117367798
+ 419441          | Meppel, Burgem. Knopperslaan                     | 869156          | Meppel, Burg. Knopperslaan                       |  0.00368797756258147
+ 521325          | St. Maartensvlotbrug, St. Maartensweg            | 644406          | St. Maartensvlotbrug, St.Maartensweg             |  0.00369018921425442
+ 1332026         | Emmen, Station (Perron B)                        | 1332984         | Emmen, Station (Perron A)                        |  0.00369083450529096
+ 1331727         | Emmen, Station (Perron C)                        | 1332026         | Emmen, Station (Perron B)                        |  0.00369083450828148
+ 1332630         | Assen, Station (Perron F)                        | 1378266         | Assen, Station (Perron C)                        |  0.00369805777551446
+ 1331662         | Assen, Station (Perron E)                        | 1378266         | Assen, Station (Perron C)                        |  0.00369805777551446
+ 1420902         | 's-Hertogenbosch, Centraal Station (D)           | 1421041         | 's-Hertogenbosch, Centraal Station (E)           |  0.00371389803150748
+ 1421043         | 's-Hertogenbosch, Centraal Station (C)           | 323590          | 's-Hertogenbosch, Centraal Station (B)           |   0.0037139001783121
+ 1216573         | Maastricht, Station Perron F                     | 1479319         | Maastricht, Station Perron E                     |  0.00373895161131274
+ 1332018         | Delfzijl, Station (Perron D)                     | 1378265         | Delfzijl, Station (Perron C)                     |   0.0037438217594617
+ 1332847         | Assen, Station (Perron B)                        | 1378266         | Assen, Station (Perron C)                        |  0.00374576167607409
+ 1330994         | Assen, Station (Perron H)                        | 1331662         | Assen, Station (Perron E)                        |  0.00374814776674904
+ 1330994         | Assen, Station (Perron H)                        | 1332630         | Assen, Station (Perron F)                        |  0.00374814776674904
+ 1217161         | Delft, Station Delft (Perron H)                  | 1501698         | Delft, Station Delft (Perron F)                  |  0.00375155958026731
+ 1217161         | Delft, Station Delft (Perron H)                  | 1217760         | Delft, Station Delft (Perron G)                  |  0.00375155958026731
+ 1333095         | Appingedam, Busstation (Perron A)                | 1333342         | Appingedam, Busstation (Perron B)                |  0.00375737329735903
+ 1331793         | Appingedam, Busstation (Perron D)                | 1332066         | Appingedam, Busstation (Perron E)                |  0.00379566367156159
+ 1196136         | Rotterdam, Zuidplein perron L                    | 1377746         | Rotterdam, Zuidplein perron M                    |  0.00379865862851075
+ 1421039         | 's-Hertogenbosch, Centraal Station (G)           | 1421040         | 's-Hertogenbosch, Centraal Station (H)           |  0.00382029062509645
+ 1331499         | Delfzijl, Station (Perron F)                     | 1332018         | Delfzijl, Station (Perron D)                     |   0.0038400290714931
+ 387997          | Nieuw Vossemeer, Slaakdam                        | 435549          | Nieuw-Vossemeer, Slaakdam                        |  0.00386376564221314
+ 1377659         | Haarlem, Station E                               | 511218          | Haarlem, Station                                 |  0.00386644114243137
+ 1377603         | Haarlem, Station F                               | 1377659         | Haarlem, Station E                               |  0.00386644114243137
+ 1329250         | Zeist, Station Driebergen-Zeist (Perron J)       | 1330408         | Zeist, Station Driebergen-Zeist (Perron H)       |  0.00387294654797037
+ 1217603         | Zoetermeer, Centrum West (Perron E)              | 1217604         | Zoetermeer, Centrum West (Perron F)              |  0.00387868138489639
+ 1133642         | Rotterdam, Zuidplein perron N                    | 1377746         | Rotterdam, Zuidplein perron M                    |  0.00389024670318447
+ 1331195         | Loppersum, Station (Perron B)                    | 1377881         | Loppersum, Station (Perron D)                    |  0.00390274842231685
+ 1331986         | Groningen, Hoofdstation (Perron X)               | 1331990         | Groningen, Hoofdstation (Perron Y)               |  0.00390648605717727
+ 1421400         | Venlo, Station Perron C                          | 1421562         | Venlo, Station Perron D                          |  0.00390830184900323
+ 1134318         | Rotterdam, Zuidplein perron I                    | 1196135         | Rotterdam, Zuidplein perron J                    |  0.00392852661293459
+ 1501696         | Delft, Station Delft (Perron H)                  | 1501758         | Delft, Station Delft (Perron G)                  |  0.00393837896993741
+ 1421487         | Venlo, Station Perron F                          | 1421497         | Venlo, Station Perron E                          |   0.0039410803364352
+ 417702          | Den Helder, Station                              | NL:S:34000010   | Den Helder, Station                              |  0.00395719951127269
+ 1331441         | Hoogkerk, P+R Hoogkerk (Perron E)                | 1331575         | Hoogkerk, P+R Hoogkerk (Perron F)                |  0.00396317732135542
+ 1420192         | Amsterdam, G.v. Ledenberchstraat                 | 15323           | Amsterdam, G. v.Ledenberchstraat                 |  0.00398538195486311
+ 1329555         | Nieuwegein, Stadscentrum (Perron E)              | 650662          | Nieuwegein, Stadscentrum (Perron F)              |  0.00401487758177556
+ 1419913         | Nijmegen, Plein 1944 (B)                         | 415756          | Nijmegen, Plein 1944 (A)                         |  0.00402111113755636
+ 1330875         | Hoogeveen, Station (Perron E)                    | 1331961         | Hoogeveen, Station (Perron F)                    |   0.0040328228909504
+ 1501128         | Spijkenisse, Halfweg                             | 677328          | Spijkenisse, Halfweg 2                           |   0.0040334054176222
+ 1401126         | Groningen, Zernike Noord (Perron E)              | 1401128         | Groningen, Zernike Noord (Perron F)              |  0.00403547184460553
+ 418656          | Arnhem, Huyghenslaan                             | 516             | Arnhem, Huijghenslaan                            |  0.00407214102556607
+ 1331195         | Loppersum, Station (Perron B)                    | 653595          | Loppersum, Station (Perron C)                    |  0.00407686412675036
+ 1100655         | Krimpen ad IJssel, Nieuwe Vliet                  | 252496          | Krimpen a/d IJssel, Nieuwe Vliet                 |  0.00407846813921156
+ 1099932         | Delft, TU Kluyverpark                            | 1217460         | Delft, TU - Kluyverpark                          |  0.00409917492892938
+ 558979          | Nieuwerkerk ad IJssel, Kroonkruid                | 81437           | Nieuwerkerk a/d IJssel, Kroonkruid               |  0.00412867249940281
+ 1356136         | Utrecht, CS Jaarbeursplein (Perron G4)           | 1356137         | Utrecht, CS Jaarbeursplein (Perron G5)           |  0.00413332066809013
+ 1217165         | Delft, Station Delft (Perron I)                  | 1501758         | Delft, Station Delft (Perron G)                  |  0.00414464481284214
+ 1377602         | Haarlem, Station D                               | NL:S:55000050   | Haarlem, Station                                 |   0.0041549349569098
+ 1134372         | Nieuwerkerk ad IJssel, Goudmos                   | 550373          | Nieuwerkerk a/d IJssel, Goudmos                  |   0.0041551547870388
+ 87355           | Den Haag Centraal                                | 98791           | Den Haag, Centraal                               |  0.00421711315293288
+ 1331793         | Appingedam, Busstation (Perron D)                | 1333605         | Appingedam, Busstation (Perron C)                |  0.00426581155850829
+ 1501697         | Delft, Station Delft (Perron E)                  | 1501698         | Delft, Station Delft (Perron F)                  |  0.00433168405901532
+ 1217760         | Delft, Station Delft (Perron G)                  | 1501697         | Delft, Station Delft (Perron E)                  |  0.00433168405901532
+ 1501051         | Hoogvliet Rotterdam, Hoogvliet Metro Busperron B | 1501052         | Hoogvliet Rotterdam, Hoogvliet Metro Busperron A |   0.0043400975952144
+ 1241363         | Hoogvliet Rotterdam, Hoogvliet Metro Busperron A | 1501051         | Hoogvliet Rotterdam, Hoogvliet Metro Busperron B |   0.0043400975952144
+ 238196          | Drempt, De Braamberg                             | 417982          | Drempt, de Braamberg                             |  0.00434020474910835
+ 1378265         | Delfzijl, Station (Perron C)                     | 654644          | Delfzijl, Station (Perron E)                     |  0.00436026670210475
+ 1237174         | Arnhem, Wielewaalstraat/Hoogte 80                | 365310          | Arnhem, Wielewaalstraat/Hoogte80                 |  0.00437243611807188
+ 1099926         | Delft, TU Aula                                   | 1216967         | Delft, TU - Aula                                 |  0.00437245117384425
+ 679279          | Roermond, Station Perron D                       | 679287          | Roermond, Station Perron C                       |  0.00437426181812358
+ 581561          | Utrecht, P+R Papendorp                           | 681037          | Utrecht, P-R Papendorp                           |  0.00440557130849573
+ 1421524         | Roermond, Station Perron B                       | 679337          | Roermond, Station Perron A                       |  0.00441225574805216
+ 1331588         | Meppel, Station (Perron D)                       | 1378196         | Meppel, Station (Perron B)                       |  0.00442442381682708
+ 1401099         | Groningen, Zernike Noord (Perron G)              | 1401128         | Groningen, Zernike Noord (Perron F)              |  0.00442632254407496
+ 1330290         | Soesterberg, Dumoulinkazerne                     | 672898          | Soesterberg, Du Moulinkazerne                    |  0.00443894424899497
+ 1217106         | Naaldwijk, Busstation (Perron G)                 | 1217583         | Naaldwijk, Busstation (Perron H)                 |  0.00443985470893727
+ 1332018         | Delfzijl, Station (Perron D)                     | 1377888         | Delfzijl, Station (Perron A)                     |  0.00445483701726607
+ 1331986         | Groningen, Hoofdstation (Perron X)               | 1331987         | Groningen, Hoofdstation (Perron W)               |  0.00446869323788009
+ 1421478         | Venray, Station                                  | 1421486         | Venray, Station B                                |  0.00448087026017992
+ 1332167         | Assen, M.L. Kingweg (Perron C)                   | 1332687         | Assen, M.L. Kingweg (Perron D)                   |  0.00451252430044488
+ 1501340         | Krimpen ad IJssel, Industrieweg                  | 98364           | Krimpen a/d IJssel, Industrieweg                 |  0.00452541045975109
+ 1421036         | 's-Hertogenbosch, Centraal Station (K)           | 1421038         | 's-Hertogenbosch, Centraal Station (I)           |  0.00452596838943245
+ 1217584         | Naaldwijk, Busstation (Perron E)                 | 1217848         | Naaldwijk, Busstation (Perron D)                 |  0.00453041978336046
+ 1333096         | Scheemda, Busstation (Perron C)                  | 1333345         | Scheemda, Busstation (Perron B)                  |  0.00453689082253739
+ 1421533         | Venlo, Station Perron B                          | 1421547         | Venlo, Station Perron A                          |  0.00455565090155635
+ 355364          | Drempt, de Braamberg                             | 81              | Drempt, De Braamberg                             |  0.00462801065479867
+ 1217191         | Zoetermeer, Centrum West (Perron C)              | 1217193         | Zoetermeer, Centrum West (Perron B)              |  0.00463732567279687
+ 1329671         | Nieuw-Loosdrecht, Nieuw Loosdrechtsedijk         | 356084          | Nieuw Loosdrecht, Nieuw Loosdrechtsedijk         |  0.00464694259111813
+ 1330177         | Soesterberg, Bethanië/Hebron                     | 672299          | Soesterberg, Bethanie/Hebron                     |   0.0046602218906469
+ 1330391         | Amersfoort, Zorgc.De Lichtenberg                 | 675227          | Amersfoort, Zorgc. De Lichtenberg                |  0.00470413921611165
+ 1400584         | Utrecht, Station Lunetten (Perron B)             | 826465          | Utrecht, Station Lunetten (Perron C)             |   0.0047106611308307
+ 1330443         | Zeist, Station Driebergen-Zeist (Perron F)       | 1400575         | Zeist, Station Driebergen-Zeist (Perron E)       |  0.00474794742398143
+ 1331696         | Hoogkerk, P+R Hoogkerk (Perron D)                | 980396          | Hoogkerk, P+R Hoogkerk (Perron C)                |  0.00475566100323891
+ 1420881         | Uden, Busstation (A)                             | 1420900         | Uden, Busstation (B)                             |  0.00481034701720783
+ 1217602         | Zoetermeer, Centrum West (Perron G)              | 1217604         | Zoetermeer, Centrum West (Perron F)              |  0.00482222848787226
+ 558979          | Nieuwerkerk ad IJssel, Kroonkruid                | 80880           | Nieuwerkerk a/d IJssel, Kroonkruid               |  0.00482252901828109
+ 1237960         | Arnhem, Wielewaalstraat/Hoogte 80                | 417115          | Arnhem, Wielewaalstraat/Hoogte80                 |  0.00482562172042931
+ 1420900         | Uden, Busstation (B)                             | 1420920         | Uden, Busstation (C)                             |  0.00483666879585422
+ 1377602         | Haarlem, Station D                               | 1420643         | Haarlem, Station C                               |  0.00485612810069213
+ 10              | Doesburg, Tunnel Angerlo                         | 417596          | Doesburg, tunnel Angerlo                         |  0.00486952075413629
+ 1333271         | Noordscheschut, Zwartedijkje                     | 1419897         | Noordscheschut, Zwarte Dijkje                    |  0.00491999530179281
+ 1330412         | Zeist, Station Driebergen-Zeist (Perron D)       | 1400575         | Zeist, Station Driebergen-Zeist (Perron E)       |  0.00494097665048016
+ 1421524         | Roermond, Station Perron B                       | 679287          | Roermond, Station Perron C                       |  0.00497598756399457
+ 1332221         | Hoogkerk, P+R Hoogkerk (Perron B)                | 980396          | Hoogkerk, P+R Hoogkerk (Perron C)                |  0.00498244785518136
+ 327331          | Amsterdam, G.J. Scheurleerweg                    | 560698          | Amsterdam, G.J.Scheurleerweg                     |  0.00499267065006705
+ 1331461         | Groningen, Hoofdstation (Perron C)               | 1331717         | Groningen, Hoofdstation (Perron M)               |   0.0049999133162622
+ 1217460         | Delft, TU - Kluyverpark                          | 558652          | Delft, TU Kluyverpark                            |  0.00500798624306985
+ 1330967         | Emmen, Station (Perron D)                        | 1331727         | Emmen, Station (Perron C)                        |  0.00500924845306169
+ 1333345         | Scheemda, Busstation (Perron B)                  | 1377914         | Scheemda, Busstation (Perron A)                  |  0.00501406025135258
+ 1059129         | Haarlem, Station                                 | 1377602         | Haarlem, Station D                               |   0.0050460945725999
+ 1134317         | Rotterdam, Zuidplein Perron H                    | 1134318         | Rotterdam, Zuidplein perron I                    |  0.00505282310047335
+ 1332687         | Assen, M.L. Kingweg (Perron D)                   | 1333857         | Assen, M.L. Kingweg (Perron A)                   |   0.0050583950479149
+ 1332167         | Assen, M.L. Kingweg (Perron C)                   | 1332505         | Assen, M.L. Kingweg (Perron B)                   |  0.00505839506527042
+ 1420499         | Reek, Mgr Borretstraat                           | 1420836         | Reek, Mgr. Borretstraat                          |   0.0050871947578324
+ 1333096         | Scheemda, Busstation (Perron C)                  | 656383          | Scheemda, Busstation (Perron D)                  |  0.00509064054476615
+ 1356134         | Utrecht, CS Jaarbeursplein (Perron G2)           | 1356135         | Utrecht, CS Jaarbeursplein (Perron G3)           |  0.00510648827755827
+ 1329839         | Nieuwegein, Stadscentrum (Perron C)              | 650859          | Nieuwegein, Stadscentrum (Perron D)              |  0.00511783741602915
+ 1238354         | Rotterdam, Rotterdam Centraal perron A           | 1241239         | Rotterdam, Rotterdam Centraal perron B           |  0.00512984749744637
+ 626822          | Den Helder, Station                              | NL:S:34000010   | Den Helder, Station                              |  0.00520828478628907
+ 644312          | Tiel, Laan van Westroyen                         | 8811            | Tiel, Laan van Westroijen                        |   0.0052255210445659
+ 1330484         | Amersfoort, Zorgc.De Lichtenberg                 | 672646          | Amersfoort, Zorgc. De Lichtenberg                |  0.00524014509042833
+ 1479335         | Vaals, Busstation Perron A                       | 1479355         | Vaals, Busstation Perron B                       |  0.00526126966208056
+ 1501373         | Krimpen ad IJssel, Middenwetering                | 252490          | Krimpen a/d IJssel, Middenwetering               |  0.00526346152305486
+ 1421427         | Venray, Station A                                | 1421486         | Venray, Station B                                |  0.00527321292031723
+ 1333095         | Appingedam, Busstation (Perron A)                | 1333605         | Appingedam, Busstation (Perron C)                |  0.00529552571886786
+ 53896           | Leiden Centraal                                  | NL:S:54447000   | Leiden, Centraal                                 |  0.00532810906799551
+ 1334159         | Delfzijl, Station (Perron B)                     | 1378265         | Delfzijl, Station (Perron C)                     |   0.0054005409228947
+ 1134374         | Nieuwerkerk ad IJssel, Bospolderstraat           | 82894           | Nieuwerkerk a/d IJssel, Bospolderstraat          |  0.00551015792155902
+ 1377888         | Delfzijl, Station (Perron A)                     | 654644          | Delfzijl, Station (Perron E)                     |  0.00553163830276871
+ 1421478         | Venray, Station                                  | 679127          | Venray, Station A                                |  0.00556256074087827
+ 1330344         | Wijk bij Duurstede, Steenstraat-Centrum          | 1378638         | Wijk bij Duurstede, Steenstraat/Centrum          |  0.00557293156695628
+ 355354          | Den Helder, Station                              | NL:S:34000010   | Den Helder, Station                              |  0.00557858143381183
+ 1238800         | Lisse,Centrum                                    | 1242279         | Lisse, Centrum                                   |  0.00559242404337249
+ 1331987         | Groningen, Hoofdstation (Perron W)               | 654943          | Groningen, Hoofdstation (Perron V)               |  0.00560850758902423
+ 1330086         | Soesterberg, Bethanië/Hebron                     | 674874          | Soesterberg, Bethanie/Hebron                     |  0.00562408091419729
+ 1400584         | Utrecht, Station Lunetten (Perron B)             | 826464          | Utrecht, Station Lunetten (Perron A)             |  0.00562565043000443
+ 1420846         | Uden, Busstation (D)                             | 1420952         | Uden, Busstation (E)                             |  0.00563663313530422
+ 1241239         | Rotterdam, Rotterdam Centraal perron B           | 1501594         | Rotterdam, Rotterdam Centraal perron C           |  0.00564109497436584
+ 1332747         | Groningen, P3 / Boumaboulevard (Perron B)        | 655256          | Groningen, P3 / Boumaboulevard (Perron A)        |   0.0056625247988765
+ 1331717         | Groningen, Hoofdstation (Perron M)               | 654605          | Groningen, Hoofdstation (Perron N)               |  0.00568234751098001
+ 674017          | Vleuten, Vleuterweide Centrum                    | 826442          | Vleuten, Vleuterweide-Centrum                    |  0.00568775811230586
+ 1333551         | Assen, Selma Lagerlöflaan                        | 650041          | Assen, Selma Lagerloflaan                        |  0.00569214957808725
+ 387997          | Nieuw Vossemeer, Slaakdam                        | 435394          | Nieuw-Vossemeer, Slaakdam                        |  0.00569248950332068
+ 1238998         | Roermond, Station Perron E                       | 679279          | Roermond, Station Perron D                       |  0.00569386487928694
+ 1215489         | Gorinchem, Station (perron A)                    | 3362            | Gorinchem, Station (perron F)                    |  0.00569716873763839
+ 1135216         | Gorinchem, Station (perron A)                    | 3362            | Gorinchem, Station (perron F)                    |  0.00569716873763839
+ 1420242         | Wassenaar, van Oldenbarneveltweg                 | 81389           | Wassenaar, Van Oldenbarneveltweg                 |  0.00571437361670652
+ 1332125         | Winschoten, Station (Perron B)                   | 1332942         | Winschoten, Station (Perron A)                   |  0.00573460507193751
+ 1355730         | Doetinchem, Station (C)                          | 1355747         | Doetinchem, Station (D)                          |    0.005736669877153
+ 1333793         | Emmen, Station (Perron H)                        | 1334129         | Emmen, Station (Perron F)                        |  0.00576014563871437
+ 1331218         | Emmen, Station (Perron E)                        | 1334129         | Emmen, Station (Perron F)                        |  0.00576014563871437
+ 1420846         | Uden, Busstation (D)                             | 1420920         | Uden, Busstation (C)                             |  0.00582337477034064
+ 1332505         | Assen, M.L. Kingweg (Perron B)                   | 1333857         | Assen, M.L. Kingweg (Perron A)                   |  0.00587245400257626
+ 1378093         | Zuidhorn, Station (Perron A)                     | 1378120         | Zuidhorn, Station (Perron B)                     |   0.0059140252397406
+ 1331715         | Groningen, Hoofdstation (Perron R)               | 1331716         | Groningen, Hoofdstation (Perron S)               |  0.00591808825979542
+ 506803          | Leiden, Centraal                                 | 53896           | Leiden Centraal                                  |  0.00599436636547408
+ 1330150         | Utrecht, Station Leidsche Rijn (Perron C)        | 1400546         | Utrecht, Station Leidsche Rijn (Perron A)        |  0.00604509400609237
+ 103729          | Zeeland, Udenseweg N265                          | 419617          | Zeeland, Udenseweg/N265                          |  0.00605952870437238
+ 674             | 's-Heerenberg, Busstation                        | NL:S:41790030   | 'S-Heerenberg, Busstation                        |  0.00610560647449102
+ 1045            | 's-Heerenberg, Busstation                        | NL:S:41790030   | 'S-Heerenberg, Busstation                        |  0.00610560647449102
+ 506695          | Leiden, Centraal                                 | 53896           | Leiden Centraal                                  |  0.00610915808292518
+ 506813          | Leiden, Centraal                                 | 53896           | Leiden Centraal                                  |  0.00610915808292518
+ 1377659         | Haarlem, Station E                               | NL:S:55000050   | Haarlem, Station                                 |  0.00620224876167071
+ 1355745         | Doetinchem, Station (B)                          | 1355746         | Doetinchem, Station (A)                          |  0.00623293478143999
+ 1421427         | Venray, Station A                                | NL:S:69710500   | Venray, Station                                  |  0.00629395055271814
+ 1421533         | Venlo, Station Perron B                          | 1421562         | Venlo, Station Perron D                          |  0.00630164727256117
+ 506692          | Leiden, Centraal                                 | 53896           | Leiden Centraal                                  |  0.00630365345703282
+ 1217584         | Naaldwijk, Busstation (Perron E)                 | 1217585         | Naaldwijk, Busstation (Perron F)                 |  0.00630709661109679
+ 1377602         | Haarlem, Station D                               | 1377659         | Haarlem, Station E                               |  0.00631305698211162
+ 1356134         | Utrecht, CS Jaarbeursplein (Perron G2)           | 1356136         | Utrecht, CS Jaarbeursplein (Perron G4)           |  0.00635285203311469
+ 1217301         | Rijswijk, Van Vredenburchweg                     | 1217762         | Rijswijk, van Vredenburchweg                     |  0.00636042395358727
+ 1059129         | Haarlem, Station                                 | 1420643         | Haarlem, Station C                               |    0.006428664754278
+ 1329613         | Vleuten, Eyckenstein                             | 673556          | Vleuten, Eykenstein                              |  0.00645290554716718
+ 1215489         | Gorinchem, Station (perron A)                    | 1400443         | Gorinchem, Station (perron F)                    |  0.00645832731150837
+ 1135216         | Gorinchem, Station (perron A)                    | 1400443         | Gorinchem, Station (perron F)                    |  0.00645832731150837
+ 1215495         | Gorinchem, Station (perron A)                    | 3362            | Gorinchem, Station (perron F)                    |   0.0064583288189101
+ 1377659         | Haarlem, Station E                               | 1420643         | Haarlem, Station C                               |  0.00646215242389797
+ 1420901         | 's-Hertogenbosch, Centraal Station (J)           | 1421040         | 's-Hertogenbosch, Centraal Station (H)           |  0.00647717526119199
+ 1421039         | 's-Hertogenbosch, Centraal Station (G)           | 1421041         | 's-Hertogenbosch, Centraal Station (E)           |  0.00647718027685239
+ 1134564         | Nieuwerkerk ad IJssel, Begoniaveld               | 81270           | Nieuwerkerk a/d IJssel, Begoniaveld              |  0.00648887233547608
+ 1334159         | Delfzijl, Station (Perron B)                     | 1377888         | Delfzijl, Station (Perron A)                     |  0.00653328454805378
+ 1401108         | Groningen, Zernike Noord (Perron C)              | 1401126         | Groningen, Zernike Noord (Perron E)              |  0.00662355044809034
+ 1333271         | Noordscheschut, Zwartedijkje                     | 827153          | Noordscheschut, Zwarte Dijkje                    |  0.00662699362257953
+ 1501443         | Krimpen ad IJssel, Middenwetering                | 252487          | Krimpen a/d IJssel, Middenwetering               |  0.00663429817879304
+ 1217161         | Delft, Station Delft (Perron H)                  | 1501700         | Delft, Station Delft (Perron I)                  |   0.0066366920437222
+ 1331720         | Groningen, Hoofdstation (Perron U)               | 654943          | Groningen, Hoofdstation (Perron V)               |  0.00667079512134236
+ 1356135         | Utrecht, CS Jaarbeursplein (Perron G3)           | 1356137         | Utrecht, CS Jaarbeursplein (Perron G5)           |   0.0066715461442247
+ 316259          | Utrecht, P+R Papendorp                           | 674052          | Utrecht, P-R Papendorp                           |  0.00668091153651729
+ 1215522         | Vianen, Busstation Lekbrug (oost)                | NL:S:51340241   | Vianen, Busstation Lekbrug (Oost)                |  0.00668900589324552
+ 1377602         | Haarlem, Station D                               | 1377653         | Haarlem, Station B                               |  0.00671405241756699
+ 1217163         | Delft, Station Delft (Perron F)                  | 1501758         | Delft, Station Delft (Perron G)                  |  0.00678677796585039
+ 506720          | Leiden, Centraal                                 | 53896           | Leiden Centraal                                  |  0.00682106234146247
+ 1238284         | Rotterdam, Rotterdam Centraal perron D           | 1240321         | Rotterdam, Rotterdam Centraal perron C           |  0.00682694218621986
+ 1377653         | Haarlem, Station B                               | 1377659         | Haarlem, Station E                               |  0.00683662563223369
+ 1331793         | Appingedam, Busstation (Perron D)                | 1333342         | Appingedam, Busstation (Perron B)                |  0.00686150675929275
+ 1479336         | Vaals, Busstation Perron A                       | 1479355         | Vaals, Busstation Perron B                       |  0.00687133924594492
+ 1356133         | Utrecht, CS Jaarbeursplein (Perron G1)           | 1356135         | Utrecht, CS Jaarbeursplein (Perron G3)           |  0.00687790821122792
+ 1217108         | Naaldwijk, Busstation (Perron C)                 | 1217848         | Naaldwijk, Busstation (Perron D)                 |  0.00688087721696428
+ 1331719         | Groningen, Hoofdstation (Perron T)               | 1331720         | Groningen, Hoofdstation (Perron U)               |  0.00690762608776453
+ 1420902         | 's-Hertogenbosch, Centraal Station (D)           | 1421042         | 's-Hertogenbosch, Centraal Station (F)           |  0.00692765157548149
+ 1420836         | Reek, Mgr. Borretstraat                          | 416837          | Reek, Mgr Borretstraat                           |  0.00694060070431334
+ 1421038         | 's-Hertogenbosch, Centraal Station (I)           | 1421039         | 's-Hertogenbosch, Centraal Station (G)           |    0.006947698504595
+ 1331588         | Meppel, Station (Perron D)                       | 1401118         | Meppel, Station (Perron A)                       |  0.00695531326530926
+ 1330596         | De Bilt, Tunneltje De Bilt                       | 665273          | De Bilt, Tunneltje de Bilt                       |  0.00697039723188539
+ 1331986         | Groningen, Hoofdstation (Perron X)               | 1331989         | Groningen, Hoofdstation (Perron Z)               |  0.00697914634538765
+ 1330096         | Zeist, Busstation (Perron B)                     | 1400521         | Zeist, Busstation (Perron C)                     |  0.00700380868230503
+ 650662          | Nieuwegein, Stadscentrum (Perron F)              | 650859          | Nieuwegein, Stadscentrum (Perron D)              |  0.00700734906588507
+ 679127          | Venray, Station A                                | NL:S:69710500   | Venray, Station                                  |  0.00704627162522945
+ 1421041         | 's-Hertogenbosch, Centraal Station (E)           | 1421043         | 's-Hertogenbosch, Centraal Station (C)           |  0.00704695974165429
+ 1420902         | 's-Hertogenbosch, Centraal Station (D)           | 323590          | 's-Hertogenbosch, Centraal Station (B)           |  0.00704696084809656
+ 1217760         | Delft, Station Delft (Perron G)                  | 1501696         | Delft, Station Delft (Perron H)                  |  0.00705345273468722
+ 1501696         | Delft, Station Delft (Perron H)                  | 1501698         | Delft, Station Delft (Perron F)                  |  0.00705345273468722
+ 1421040         | 's-Hertogenbosch, Centraal Station (H)           | 1421042         | 's-Hertogenbosch, Centraal Station (F)           |  0.00706666768045808
+ 3362            | Gorinchem, Station (perron F)                    | 3871            | Gorinchem, Station (perron A)                    |  0.00708511700347155
+ 1421400         | Venlo, Station Perron C                          | 1421547         | Venlo, Station Perron A                          |  0.00709398607876926
+ 1356136         | Utrecht, CS Jaarbeursplein (Perron G4)           | 1356138         | Utrecht, CS Jaarbeursplein (Perron G6)           |  0.00711496829794292
+ 1133639         | Rotterdam, Zuidplein perron K                    | 1377746         | Rotterdam, Zuidplein perron M                    |  0.00711642451167368
+ 1237172         | Zwolle, Katwolderplein/centrum                   | 417390          | Zwolle, Katwolderplein/Centrum                   |  0.00713599011179766
+ 1217162         | Delft, Station Delft (Perron E)                  | 1501698         | Delft, Station Delft (Perron F)                  |  0.00715041563774564
+ 1217162         | Delft, Station Delft (Perron E)                  | 1217760         | Delft, Station Delft (Perron G)                  |  0.00715041563774564
+ 644338          | Schagen , Clusius College                        | 644407          | Schagen, Clusius College                         |  0.00717118268078239
+ 1501700         | Delft, Station Delft (Perron I)                  | 1501758         | Delft, Station Delft (Perron G)                  |  0.00718517927567586
+ 1099928         | Delft, TU Mekelpark                              | 1217481         | Delft, TU - Mekelpark                            |  0.00718608425767831
+ 1501697         | Delft, Station Delft (Perron E)                  | 1501758         | Delft, Station Delft (Perron G)                  |  0.00724954216456433
+ 238131          | Dordrecht, Centraal Station (perron C)           | 325629          | Dordrecht, Centraal Station (perron A)           |  0.00726216486178027
+ 409993          | Dordrecht, Centraal Station (perron A)           | 439707          | Dordrecht, Centraal Station (perron C)           |  0.00726216486178027
+ 3901            | Dordrecht, Centraal Station (perron A)           | 439707          | Dordrecht, Centraal Station (perron C)           |  0.00726216486178027
+ 325629          | Dordrecht, Centraal Station (perron A)           | 439707          | Dordrecht, Centraal Station (perron C)           |  0.00726216486178027
+ 238131          | Dordrecht, Centraal Station (perron C)           | 409993          | Dordrecht, Centraal Station (perron A)           |  0.00726216486178027
+ 238131          | Dordrecht, Centraal Station (perron C)           | 3901            | Dordrecht, Centraal Station (perron A)           |  0.00726216486178027
+ 1377653         | Haarlem, Station B                               | 357304          | Haarlem, Station                                 |  0.00727084089670854
+ 679765          | Gulpen, Busstation Perron B                      | 679791          | Gulpen, Busstation Perron C                      |  0.00727272673433833
+ 1215495         | Gorinchem, Station (perron A)                    | 1400443         | Gorinchem, Station (perron F)                    |  0.00727391870313653
+ 1479366         | Heerlen, Busstation Perron B                     | 1479528         | Heerlen, Busstation Perron C                     |  0.00729835505293902
+ 1217165         | Delft, Station Delft (Perron I)                  | 1217760         | Delft, Station Delft (Perron G)                  |  0.00732403225540328
+ 1217165         | Delft, Station Delft (Perron I)                  | 1501698         | Delft, Station Delft (Perron F)                  |  0.00732403225540328
+ 1217161         | Delft, Station Delft (Perron H)                  | 1217163         | Delft, Station Delft (Perron F)                  |  0.00732403535204616
+ 1330218         | Soesterberg, Dumoulinkazerne                     | 675440          | Soesterberg, Du Moulinkazerne                    |  0.00732648888946394
+ 1331727         | Emmen, Station (Perron C)                        | 1332984         | Emmen, Station (Perron A)                        |  0.00738166901357244
+ 1331499         | Delfzijl, Station (Perron F)                     | 1378265         | Delfzijl, Station (Perron C)                     |  0.00741710703269366
+ 1332630         | Assen, Station (Perron F)                        | 1332847         | Assen, Station (Perron B)                        |  0.00743927813067916
+ 1331662         | Assen, Station (Perron E)                        | 1332847         | Assen, Station (Perron B)                        |  0.00743927813067916
+ 1330994         | Assen, Station (Perron H)                        | 1378266         | Assen, Station (Perron C)                        |  0.00744146994884535
+ 1217587         | Voorburg, Stat. Voorburg (Perron G)              | 1420038         | Voorburg, Stat. Voorburg (Perron F)              |  0.00744487441326103
+ 1421036         | 's-Hertogenbosch, Centraal Station (K)           | 1421040         | 's-Hertogenbosch, Centraal Station (H)           |  0.00745590698591619
+ 1216733         | Leiden, Centraal                                 | 53896           | Leiden Centraal                                  |  0.00746020407881935
+ 1238705         | UIthoorn, Busstation                             | 441171          | Uithoorn, Busstation                             |  0.00746095807365542
+ 1420643         | Haarlem, Station C                               | 357304          | Haarlem, Station                                 |  0.00746175738526234
+ 1133642         | Rotterdam, Zuidplein perron N                    | 1196136         | Rotterdam, Zuidplein perron L                    |  0.00746413575371481
+ 1479483         | Maastricht, Station Perron C                     | 1479539         | Maastricht, Station Perron B                     |  0.00747457824395107
+ 646037          | Weert, Station Perron E                          | 679291          | Weert, Station Perron D                          |  0.00748648686561533
+ 1217084         | Den Haag, Den Haag C. (Perron G)                 | 1217085         | Den Haag, Den Haag C. (Perron J)                 |  0.00749879419234076
+ 1400013         | Den Haag, Centraal Station (perron D)            | 652188          | Den Haag, Centraal Station (perron C)            |  0.00750045334092604
+ 1216523         | Maastricht, Station Perron A                     | 1479483         | Maastricht, Station Perron C                     |  0.00750109632568297
+ 1421400         | Venlo, Station Perron C                          | 1421497         | Venlo, Station Perron E                          |  0.00750835730137027
+ 1331315         | Meppel, Station (Perron C)                       | 1378196         | Meppel, Station (Perron B)                       |  0.00752471941887543
+ 1333410         | Meppel, Station (Perron C)                       | 1378196         | Meppel, Station (Perron B)                       |  0.00752471941887543
+ 1331139         | Winschoten, Station (Perron C)                   | 1333893         | Winschoten, Station (Perron D)                   |  0.00752989005810242
+ 1421487         | Venlo, Station Perron F                          | 1421562         | Venlo, Station Perron D                          |  0.00754243493255644
+ 652187          | Den Haag, Centraal Station (perron A)            | 652189          | Den Haag, Centraal Station (perron B)            |  0.00755417802853998
+ 1333799         | Assen, Selma Lagerlöflaan                        | 649957          | Assen, Selma Lagerloflaan                        |  0.00757719303712401
+ 1479366         | Heerlen, Busstation Perron B                     | 1479529         | Heerlen, Busstation Perron C                     |  0.00759766823568096
+ 646888          | Valkenburg, Station Arriva Perron B              | 679695          | Valkenburg, Station Arriva Perron C              |  0.00762773438748027
+ 1216564         | Maastricht, Station Perron H                     | 647025          | Maastricht, Station Perron B                     |  0.00765143257763088
+ 1329555         | Nieuwegein, Stadscentrum (Perron E)              | 1400484         | Nieuwegein, Stadscentrum (Perron G)              |  0.00767015590745231
+ 1332066         | Appingedam, Busstation (Perron E)                | 1333605         | Appingedam, Busstation (Perron C)                |  0.00769317005319393
+ 1420153         | Arnhem, Huyghenslaan                             | 815             | Arnhem, Huijghenslaan                            |  0.00771038273819825
+ 859733          | Amsterdam Van der Madeweg                        | 96458           | Amsterdam, Van der Madeweg                       |  0.00772364761716737
+ 1238713         | Lisse, Centrum                                   | 1238800         | Lisse,Centrum                                    |   0.0077294718380862
+ 1333859         | Emmen, Station (Perron L)                        | 979088          | Emmen, Station (Perron J)                        |  0.00773336515920689
+ 1100652         | Krimpen ad IJssel, Koekoekstraat                 | 1401020         | Krimpen a/d IJssel, Koekoekstraat                |  0.00782159444504117
+ 646399          | Gulpen, Busstation Perron A                      | 647834          | Gulpen, Busstation Perron B                      |  0.00784254763256796
+ 1217161         | Delft, Station Delft (Perron H)                  | 1501697         | Delft, Station Delft (Perron E)                  |  0.00785765382608925
+ 646399          | Gulpen, Busstation Perron A                      | 679765          | Gulpen, Busstation Perron B                      |  0.00786867004510494
+ 1400443         | Gorinchem, Station (perron F)                    | 3871            | Gorinchem, Station (perron A)                    |  0.00788467290225178
+ 679765          | Gulpen, Busstation Perron B                      | 784126          | Gulpen, Busstation Perron A                      |  0.00788821187092434
+ 1217083         | Den Haag, Den Haag C. (Perron F)                 | 1217084         | Den Haag, Den Haag C. (Perron G)                 |  0.00789755331825509
+ 1099929         | Delft, TU Aula                                   | 1217452         | Delft, TU - Aula                                 |  0.00794072978216004
+ 1217191         | Zoetermeer, Centrum West (Perron C)              | 1217603         | Zoetermeer, Centrum West (Perron E)              |   0.0079732539816608
+ 679509          | Valkenburg, Station Arriva Perron B              | 679695          | Valkenburg, Station Arriva Perron C              |  0.00799305646172264
+ 1421427         | Venray, Station A                                | 1421478         | Venray, Station                                  |  0.00800084468837015
+ 1479463         | Sittard, Busstation Perron B                     | 1479473         | Sittard, Busstation Perron A                     |  0.00800994616912278
+ 646888          | Valkenburg, Station Arriva Perron B              | 647592          | Valkenburg, Station Arriva Perron C              |  0.00801854484138746
+ 647834          | Gulpen, Busstation Perron B                      | 784126          | Gulpen, Busstation Perron A                      |  0.00804273748075428
+ 1420982         | Uden, Busstation (G)                             | 1420999         | Uden, Busstation (H)                             |  0.00804594435177076
+ 177             | Doesburg, Tunnel Angerlo                         | 415528          | Doesburg, tunnel Angerlo                         |  0.00804931446227615
+ 1355730         | Doetinchem, Station (C)                          | 1355745         | Doetinchem, Station (B)                          |  0.00805713866205258
+ 1331714         | Groningen, Hoofdstation (Perron Q)               | 1331715         | Groningen, Hoofdstation (Perron R)               |  0.00806908630425932
+ 1329555         | Nieuwegein, Stadscentrum (Perron E)              | 1329839         | Nieuwegein, Stadscentrum (Perron C)              |  0.00808876892087975
+ 1329906         | Utrecht, CS Jaarbeurszijde (Perron C8)           | 1329986         | Utrecht, CS Jaarbeurszijde (Perron D3)           |  0.00809573035119558
+ 1377602         | Haarlem, Station D                               | 511218          | Haarlem, Station                                 |  0.00810694680338572
+ 1377602         | Haarlem, Station D                               | 1377603         | Haarlem, Station F                               |  0.00810694680338572
+ 1479313         | Heerlen, Busstation Perron F                     | 1479552         | Heerlen, Busstation Perron D                     |  0.00811339072644313
+ 1330408         | Zeist, Station Driebergen-Zeist (Perron H)       | 1330443         | Zeist, Station Driebergen-Zeist (Perron F)       |  0.00814789200207221
+ 1331987         | Groningen, Hoofdstation (Perron W)               | 1331990         | Groningen, Hoofdstation (Perron Y)               |  0.00816507904336719
+ 1331727         | Emmen, Station (Perron C)                        | 1333793         | Emmen, Station (Perron H)                        |  0.00817262408429209
+ 1331218         | Emmen, Station (Perron E)                        | 1331727         | Emmen, Station (Perron C)                        |  0.00817262408429209
+ 1059129         | Haarlem, Station                                 | 1377653         | Haarlem, Station B                               |   0.0081861059787834
+ 1330967         | Emmen, Station (Perron D)                        | 1334129         | Emmen, Station (Perron F)                        |  0.00818881250185951
+ 1501051         | Hoogvliet Rotterdam, Hoogvliet Metro Busperron B | 1501252         | Hoogvliet Rotterdam, Hoogvliet Metro Busperron D |  0.00822073300657916
+ 1501051         | Hoogvliet Rotterdam, Hoogvliet Metro Busperron B | 1501053         | Hoogvliet Rotterdam, Hoogvliet Metro Busperron D |  0.00822073300657916
+ 54721           | Rotterdam Blaak                                  | NL:S:31008134   | Rotterdam, Blaak                                 |  0.00826043986262679
+ 1501482         | Rotterdam, Blaak                                 | 54721           | Rotterdam Blaak                                  |  0.00826043986262679
+ 1501483         | Rotterdam, Blaak                                 | 54721           | Rotterdam Blaak                                  |  0.00826043986262679
+ 366626          | Hoorn, Charlotte v.Pallandthof                   | 521414          | Hoorn, Charlotte v. Pallandthof                  |  0.00826314105957056
+ 87355           | Den Haag Centraal                                | 99036           | Den Haag, Centraal                               |  0.00827043014714485
+ 1331499         | Delfzijl, Station (Perron F)                     | 1377888         | Delfzijl, Station (Perron A)                     |  0.00829384106652764
+ 1333266         | Winschoten, Station (Perron E)                   | 1333540         | Winschoten, Station (Perron F)                   |  0.00832899985351287
+ 177             | Doesburg, Tunnel Angerlo                         | 417596          | Doesburg, tunnel Angerlo                         |  0.00836337380210548
+ 1401099         | Groningen, Zernike Noord (Perron G)              | 1401126         | Groningen, Zernike Noord (Perron E)              |  0.00838270316662325
+ 1216523         | Maastricht, Station Perron A                     | 1479290         | Maastricht, Station Perron C                     |  0.00841189363862566
+ 645937          | Weert, Station Perron B                          | 679231          | Weert, Station Perron A                          |  0.00841351996914416
+ 647592          | Valkenburg, Station Arriva Perron C              | 679509          | Valkenburg, Station Arriva Perron B              |  0.00841627796976076
+ 1479290         | Maastricht, Station Perron C                     | 1479539         | Maastricht, Station Perron B                     |  0.00853134690439619
+ 679287          | Roermond, Station Perron C                       | 679337          | Roermond, Station Perron A                       |  0.00865130376249817
+ 1479330         | Kerkrade, Busstation Perron F                    | 1479432         | Kerkrade, Busstation Perron A                    |  0.00865668377448743
+ 1217602         | Zoetermeer, Centrum West (Perron G)              | 1217603         | Zoetermeer, Centrum West (Perron E)              |  0.00869631148742916
+ 357415          | Nijmegen, Station Dukenburg (C)                  | 357416          | Nijmegen, Station Dukenburg (D)                  |   0.0086978912301802
+ 357415          | Nijmegen, Station Dukenburg (C)                  | 357417          | Nijmegen, Station Dukenburg (E)                  |   0.0086978912301802
+ 355333          | Nijmegen, Station Dukenburg (A)                  | 357418          | Nijmegen, Station Dukenburg (F)                  |   0.0086978912301802
+ 355333          | Nijmegen, Station Dukenburg (A)                  | 357416          | Nijmegen, Station Dukenburg (D)                  |   0.0086978912301802
+ 357414          | Nijmegen, Station Dukenburg (B)                  | 357416          | Nijmegen, Station Dukenburg (D)                  |   0.0086978912301802
+ 357414          | Nijmegen, Station Dukenburg (B)                  | 357418          | Nijmegen, Station Dukenburg (F)                  |   0.0086978912301802
+ 357415          | Nijmegen, Station Dukenburg (C)                  | 357418          | Nijmegen, Station Dukenburg (F)                  |   0.0086978912301802
+ 357414          | Nijmegen, Station Dukenburg (B)                  | 357417          | Nijmegen, Station Dukenburg (E)                  |   0.0086978912301802
+ 355333          | Nijmegen, Station Dukenburg (A)                  | 357417          | Nijmegen, Station Dukenburg (E)                  |   0.0086978912301802
+ 1401105         | Groningen, Zernike Noord (Perron A)              | 1401108         | Groningen, Zernike Noord (Perron C)              |  0.00869889065045772
+ 1330967         | Emmen, Station (Perron D)                        | 1332026         | Emmen, Station (Perron B)                        |  0.00870007747502705
+ 1332145         | Uithuizen, Station (Perron A)                    | 1332414         | Uithuizen, Station (Perron C)                    |   0.0087052261198648
+ 1334159         | Delfzijl, Station (Perron B)                     | 654644          | Delfzijl, Station (Perron E)                     |  0.00870961810908741
+ 1332018         | Delfzijl, Station (Perron D)                     | 1334159         | Delfzijl, Station (Perron B)                     |  0.00873842932921779
+ 1479309         | Sittard, Busstation Perron D                     | 1479533         | Sittard, Busstation Perron F                     |  0.00874992114555687
+ 1479309         | Sittard, Busstation Perron D                     | 1479534         | Sittard, Busstation Perron F                     |  0.00874992114555687
+ 1356133         | Utrecht, CS Jaarbeursplein (Perron G1)           | 1356136         | Utrecht, CS Jaarbeursplein (Perron G4)           |  0.00879079641697927
+ 1331139         | Winschoten, Station (Perron C)                   | 1333266         | Winschoten, Station (Perron E)                   |  0.00881222455655123
+ 1100202         | Rotterdam, Rotterdam Centraal perron FF          | 1134552         | Rotterdam, Rotterdam Centraal perron EE          |  0.00882040115418552
+ 1332387         | Meppel, Burg. Knopperslaan                       | 418498          | Meppel, Burgem. Knopperslaan                     |  0.00888049264116521
+ 1238705         | UIthoorn, Busstation                             | 675070          | Uithoorn, Busstation                             |  0.00891592505793158
+ 1238571         | Zoetermeer, Centrum West                         | 979793          | Zoetermeer, Centrum-West                         |  0.00891696308741608
+ 1333266         | Winschoten, Station (Perron E)                   | 1333893         | Winschoten, Station (Perron D)                   |  0.00893014065251217
+ 1134317         | Rotterdam, Zuidplein Perron H                    | 1196135         | Rotterdam, Zuidplein perron J                    |  0.00893419409993924
+ 647834          | Gulpen, Busstation Perron B                      | 679791          | Gulpen, Busstation Perron C                      |  0.00895442910376223
+ 1421524         | Roermond, Station Perron B                       | 679279          | Roermond, Station Perron D                       |  0.00897052229168514
+ 103729          | Zeeland, Udenseweg N265                          | 418928          | Zeeland, Udenseweg/N265                          |  0.00900206413968861
+ 1501162         | Heenvliet, Brug Voornse Kanaal                   | 365669          | Heenvliet, Brug Voornse kanaal                   |  0.00903020772517451
+ 325156          | Nieuw Vossemeer, Slaakdam                        | 435549          | Nieuw-Vossemeer, Slaakdam                        |  0.00904724831525498
+ 366599          | Sas van Gent, Bolwerk                            | 547467          | Sas Van Gent, Bolwerk                            |  0.00910190980568967
+ 358016          | Sas van Gent, Bolwerk                            | 547467          | Sas Van Gent, Bolwerk                            |  0.00910190980568967
+ 1420499         | Reek, Mgr Borretstraat                           | 222956          | Reek, Mgr. Borretstraat                          |  0.00921545609508193
+ 1479422         | Sittard, Busstation Perron D                     | 1479533         | Sittard, Busstation Perron F                     |  0.00924408676506406
+ 1479422         | Sittard, Busstation Perron D                     | 1479534         | Sittard, Busstation Perron F                     |  0.00924408676506406
+ 1216805         | Maasland, Viaduct (Perron E)                     | 1217132         | Maasland, Viaduct (Perron C)                     |  0.00926610981629562
+ 1216804         | Maasland, Viaduct (Perron E)                     | 1217132         | Maasland, Viaduct (Perron C)                     |  0.00926610981629562
+ 1331463         | Groningen, Hoofdstation (Perron E)               | 654605          | Groningen, Hoofdstation (Perron N)               |  0.00927332590926684
+ 1479297         | Heerlen, Busstation Perron E                     | 1479529         | Heerlen, Busstation Perron C                     |  0.00928981223943732
+ 1331218         | Emmen, Station (Perron E)                        | 1480319         | Emmen, Station (Perron J)                        |   0.0092993659433772
+ 1332483         | Emmen, Station (Perron K)                        | 1333793         | Emmen, Station (Perron H)                        |   0.0092993659433772
+ 1331218         | Emmen, Station (Perron E)                        | 1332483         | Emmen, Station (Perron K)                        |   0.0092993659433772
+ 1333793         | Emmen, Station (Perron H)                        | 1480319         | Emmen, Station (Perron J)                        |   0.0092993659433772
+ 1331716         | Groningen, Hoofdstation (Perron S)               | 1331719         | Groningen, Hoofdstation (Perron T)               |  0.00930690956446931
+ 1355744         | Doetinchem, Station (E)                          | 1355747         | Doetinchem, Station (D)                          |  0.00931197769674726
+ 645820          | Weert, Station Perron C                          | 645937          | Weert, Station Perron B                          |  0.00931553173497832
+ 1377970         | Zuidhorn, Station (Perron E)                     | 1378166         | Zuidhorn, Station (Perron C)                     |  0.00931945864048234
+ 1099932         | Delft, TU Kluyverpark                            | 1217522         | Delft, TU - Kluyverpark                          |  0.00932453941301477
+ 1332984         | Emmen, Station (Perron A)                        | 979088          | Emmen, Station (Perron J)                        |  0.00934403162309742
+ 1238998         | Roermond, Station Perron E                       | 679287          | Roermond, Station Perron C                       |  0.00936381741157277
+ 1479281         | Sittard, Busstation Perron E                     | 1479533         | Sittard, Busstation Perron F                     |  0.00938156361529686
+ 1479281         | Sittard, Busstation Perron E                     | 1479534         | Sittard, Busstation Perron F                     |  0.00938156361529686
+ 354665          | Nijmegen, Plein 1944 (E)                         | 581832          | Nijmegen, Plein 1944 (F)                         |  0.00944580286900618
+ 1479280         | Sittard, Busstation Perron E                     | 1479533         | Sittard, Busstation Perron F                     |  0.00947000399915011
+ 1479280         | Sittard, Busstation Perron E                     | 1479534         | Sittard, Busstation Perron F                     |  0.00947000399915011
+ 1333345         | Scheemda, Busstation (Perron B)                  | 656383          | Scheemda, Busstation (Perron D)                  |  0.00947418814218166
+ 1331986         | Groningen, Hoofdstation (Perron X)               | 654943          | Groningen, Hoofdstation (Perron V)               |  0.00948750257498482
+ 1238778         | Haarlem, Station                                 | 1377603         | Haarlem, Station F                               |  0.00949092442278702
+ 1377603         | Haarlem, Station F                               | 940105          | Haarlem, Station                                 |  0.00949092442278702
+ 1330150         | Utrecht, Station Leidsche Rijn (Perron C)        | 1330151         | Utrecht, Station Leidsche Rijn (Perron B)        |  0.00953663771934553
+ 1377603         | Haarlem, Station F                               | NL:S:55000050   | Haarlem, Station                                 |  0.00954206589523557
+ 1333096         | Scheemda, Busstation (Perron C)                  | 1377914         | Scheemda, Busstation (Perron A)                  |  0.00954570111164472
+ 1331793         | Appingedam, Busstation (Perron D)                | 1333095         | Appingedam, Busstation (Perron A)                |  0.00956067647869601
+ 1330875         | Hoogeveen, Station (Perron E)                    | 1334195         | Hoogeveen, Station (Perron B)                    |  0.00958610405689288
+ 1501482         | Rotterdam, Blaak                                 | 54722           | Rotterdam Blaak                                  |   0.0095925954941736
+ 1501483         | Rotterdam, Blaak                                 | 54722           | Rotterdam Blaak                                  |   0.0095925954941736
+ 54722           | Rotterdam Blaak                                  | NL:S:31008134   | Rotterdam, Blaak                                 |   0.0095925954941736
+ 1330967         | Emmen, Station (Perron D)                        | 1332483         | Emmen, Station (Perron K)                        |  0.00959379125886541
+ 1330967         | Emmen, Station (Perron D)                        | 1480319         | Emmen, Station (Perron J)                        |  0.00959379125886541
+ 1330009         | Zeist, Busstation (Perron A)                     | 1330096         | Zeist, Busstation (Perron B)                     |  0.00960909394671799
+ 1420952         | Uden, Busstation (E)                             | 1420982         | Uden, Busstation (G)                             |  0.00964694461287053
+ 1420881         | Uden, Busstation (A)                             | 1420920         | Uden, Busstation (C)                             |  0.00964696516073842
+ 1329903         | Utrecht, CS Jaarbeurszijde (Perron C4)           | 1329984         | Utrecht, CS Jaarbeurszijde (Perron D1)           |   0.0096583563667718
+ 1330412         | Zeist, Station Driebergen-Zeist (Perron D)       | 1330443         | Zeist, Station Driebergen-Zeist (Perron F)       |  0.00967641464707814
+ 1356135         | Utrecht, CS Jaarbeursplein (Perron G3)           | 1356138         | Utrecht, CS Jaarbeursplein (Perron G6)           |   0.0096818338177958
+ 1100327         | Krimpen ad IJssel, Koekoekstraat                 | 82882           | Krimpen a/d IJssel, Koekoekstraat                |  0.00968825636039696
+ 1331696         | Hoogkerk, P+R Hoogkerk (Perron D)                | 1332221         | Hoogkerk, P+R Hoogkerk (Perron B)                |   0.0097072119531115
+ 1479422         | Sittard, Busstation Perron D                     | 1479438         | Sittard, Busstation Perron C                     |  0.00973059903015927
+ 1479337         | Sittard, Busstation Perron I                     | 1479374         | Sittard, Busstation Perron G                     |  0.00975512158407471
+ 1100613         | Rotterdam, Rotterdam Centraal perron DD          | 1501140         | Rotterdam, Rotterdam Centraal perron CC          |  0.00976068838267935
+ 1479337         | Sittard, Busstation Perron I                     | 1479394         | Sittard, Busstation Perron H                     |   0.0097730803938979
+ 1479297         | Heerlen, Busstation Perron E                     | 1479528         | Heerlen, Busstation Perron C                     |  0.00981473882800319
+ 1421389         | Oosterhout, Busstation (A)                       | 509029          | Oosterhout, Busstation (D)                       |  0.00989185497402933
+ 1421497         | Venlo, Station Perron E                          | 1421533         | Venlo, Station Perron B                          |  0.00991053030669452
+ 1420643         | Haarlem, Station C                               | 511218          | Haarlem, Station                                 |  0.00994458750087089
+ 1377603         | Haarlem, Station F                               | 1420643         | Haarlem, Station C                               |  0.00994458750087089
+ 1216558         | Maastricht, Station Perron G                     | 647025          | Maastricht, Station Perron B                     |  0.00996360025076735
+ 1330875         | Hoogeveen, Station (Perron E)                    | 1331439         | Hoogeveen, Station (Perron C)                    |  0.00996975558431353
+ 1330149         | Utrecht, Station Leidsche Rijn (Perron D)        | 1330151         | Utrecht, Station Leidsche Rijn (Perron B)        |   0.0100244112931693
+ 1421486         | Venray, Station B                                | 679127          | Venray, Station A                                |   0.0100287443363865
+ 316259          | Utrecht, P+R Papendorp                           | 681037          | Utrecht, P-R Papendorp                           |   0.0100309205960401
+ 103713          | Zeeland, Udenseweg N265                          | 419617          | Zeeland, Udenseweg/N265                          |   0.0100319578251308
+ 1333540         | Winschoten, Station (Perron F)                   | 1333893         | Winschoten, Station (Perron D)                   |   0.0100331023981566
+ 1479309         | Sittard, Busstation Perron D                     | 1479438         | Sittard, Busstation Perron C                     |   0.0100398123947693
+ 1479392         | Maastricht, Station Perron A                     | 1479539         | Maastricht, Station Perron B                     |    0.010051626655988
+ 1331315         | Meppel, Station (Perron C)                       | 1401118         | Meppel, Station (Perron A)                       |   0.0100552606752465
+ 1333410         | Meppel, Station (Perron C)                       | 1401118         | Meppel, Station (Perron A)                       |   0.0100552606752465
+ 1330151         | Utrecht, Station Leidsche Rijn (Perron B)        | 1400546         | Utrecht, Station Leidsche Rijn (Perron A)        |   0.0100588140536655
+ 1356134         | Utrecht, CS Jaarbeursplein (Perron G2)           | 1356137         | Utrecht, CS Jaarbeursplein (Perron G5)           |   0.0100965125069464
+ 103879          | Weesp, J.H.Leopoldhof                            | 362237          | Weesp, J.H. Leopoldhof                           |   0.0100987729371731
+ 1217132         | Maasland, Viaduct (Perron C)                     | 1217828         | Maasland, Viaduct (Perron A)                     |   0.0101216455662695
+ 1420902         | 's-Hertogenbosch, Centraal Station (D)           | 1421039         | 's-Hertogenbosch, Centraal Station (G)           |    0.010165786797239
+ 1479392         | Maastricht, Station Perron A                     | 1479483         | Maastricht, Station Perron C                     |    0.010181131941802
+ 1421038         | 's-Hertogenbosch, Centraal Station (I)           | 1421042         | 's-Hertogenbosch, Centraal Station (F)           |    0.010185643905256
+ 238191          | Hoog-Keppel, Weg naar Hoog-Keppel                | 939921          | Hoog Keppel, Weg naar Hoog Keppel                |    0.010204230274567
+ 1501136         | Nieuwerkerk ad IJssel, Raadhuisplein             | 82577           | Nieuwerkerk a/d IJssel, Raadhuisplein            |   0.0102112122786855
+ 506807          | Leiden, Centraal                                 | 53896           | Leiden Centraal                                  |     0.01021897076902
+ 1237171         | Zwolle, Katwolderplein/centrum                   | 1420305         | Zwolle, Katwolderplein/Centrum                   |   0.0102302150699446
+ 826464          | Utrecht, Station Lunetten (Perron A)             | 826465          | Utrecht, Station Lunetten (Perron C)             |   0.0102488362972166
+ 1421042         | 's-Hertogenbosch, Centraal Station (F)           | 1421043         | 's-Hertogenbosch, Centraal Station (C)           |   0.0102699779044812
+ 1420901         | 's-Hertogenbosch, Centraal Station (J)           | 1421039         | 's-Hertogenbosch, Centraal Station (G)           |   0.0102897077125205
+ 1421040         | 's-Hertogenbosch, Centraal Station (H)           | 1421041         | 's-Hertogenbosch, Centraal Station (E)           |   0.0102897133843031
+ 1217162         | Delft, Station Delft (Perron E)                  | 1501758         | Delft, Station Delft (Perron G)                  |   0.0103545667544627
+ 1501698         | Delft, Station Delft (Perron F)                  | 1501700         | Delft, Station Delft (Perron I)                  |   0.0103881878030424
+ 1217760         | Delft, Station Delft (Perron G)                  | 1501700         | Delft, Station Delft (Perron I)                  |   0.0103881878030424
+ 1331720         | Groningen, Hoofdstation (Perron U)               | 1378043         | Groningen, Hoofdstation (Perron I)               |   0.0104381814379051
+ 1238354         | Rotterdam, Rotterdam Centraal perron A           | 1501594         | Rotterdam, Rotterdam Centraal perron C           |   0.0104962046583717
+ 1332026         | Emmen, Station (Perron B)                        | 979088          | Emmen, Station (Perron J)                        |   0.0104973154355846
+ 1217585         | Naaldwijk, Busstation (Perron F)                 | 1217848         | Naaldwijk, Busstation (Perron D)                 |   0.0105030885491673
+ 1329904         | Utrecht, CS Jaarbeurszijde (Perron C2)           | 651007          | Utrecht, CS Jaarbeurszijde (Perron C1)           |   0.0105196287028394
+ 1217407         | Zoetermeer, Station (Perron A)                   | 1420675         | Zoetermeer, Station (Perron B)                   |   0.0105223393078201
+ 1133639         | Rotterdam, Zuidplein perron K                    | 1196135         | Rotterdam, Zuidplein perron J                    |   0.0105245234661132
+ 1501139         | Rotterdam, Rotterdam Centraal perron BB          | 1501141         | Rotterdam, Rotterdam Centraal perron AA          |   0.0105265867409217
+ 1332115         | Groningen, Station Europapark (Perron C)         | 1334314         | Groningen, Station Europapark (Perron B)         |   0.0105379469064369
+ 1133639         | Rotterdam, Zuidplein perron K                    | 1133642         | Rotterdam, Zuidplein perron N                    |    0.010546512505314
+ 1332066         | Appingedam, Busstation (Perron E)                | 1333342         | Appingedam, Busstation (Perron B)                |   0.0105496965584787
+ 10              | Doesburg, Tunnel Angerlo                         | 415528          | Doesburg, tunnel Angerlo                         |   0.0105611634776683
+ 1331461         | Groningen, Hoofdstation (Perron C)               | 654605          | Groningen, Hoofdstation (Perron N)               |   0.0105688882430547
+ 1329905         | Utrecht, CS Jaarbeurszijde (Perron C7)           | 1329906         | Utrecht, CS Jaarbeurszijde (Perron C8)           |   0.0105794237978031
+ 1479366         | Heerlen, Busstation Perron B                     | 1479383         | Heerlen, Busstation Perron A                     |   0.0105901299671428
+ 1479385         | Heerlen, Busstation Perron E                     | 1479529         | Heerlen, Busstation Perron C                     |   0.0105901595958899
+ 1377603         | Haarlem, Station F                               | 1377653         | Haarlem, Station B                               |   0.0106090669977304
+ 1377653         | Haarlem, Station B                               | 511218          | Haarlem, Station                                 |   0.0106090669977304
+ 1217163         | Delft, Station Delft (Perron F)                  | 1501696         | Delft, Station Delft (Perron H)                  |   0.0106272082435573
+ 1401108         | Groningen, Zernike Noord (Perron C)              | 1401128         | Groningen, Zernike Noord (Perron F)              |    0.010640725172168
+ 1400484         | Nieuwegein, Stadscentrum (Perron G)              | 650859          | Nieuwegein, Stadscentrum (Perron D)              |   0.0106594861626204
+ 1420846         | Uden, Busstation (D)                             | 1420900         | Uden, Busstation (B)                             |   0.0106599077857086
+ 1420153         | Arnhem, Huyghenslaan                             | 516             | Arnhem, Huijghenslaan                            |   0.0106914558121079
+ 1479464         | Gulpen, Busstation Perron D                      | 647720          | Gulpen, Busstation Perron E                      |   0.0107074395031725
+ 1421041         | 's-Hertogenbosch, Centraal Station (E)           | 323590          | 's-Hertogenbosch, Centraal Station (B)           |    0.010742623421277
+ 1377970         | Zuidhorn, Station (Perron E)                     | 1378120         | Zuidhorn, Station (Perron B)                     |   0.0107921207108664
+ 1421547         | Venlo, Station Perron A                          | 1421562         | Venlo, Station Perron D                          |    0.010812274462331
+ 1329798         | Vianen, Busstation Lekbrug West (Perron D)       | 1329799         | Vianen, Busstation Lekbrug West (Perron A)       |   0.0108349496353361
+ 1479349         | Kerkrade, Busstation Perron E                    | 1479545         | Kerkrade, Busstation Perron D                    |    0.010846621193434
+ 1479577         | Eindhoven, Airport                               | stoparea:81663  | Eindhoven Airport                                |   0.0108620226645835
+ 1479577         | Eindhoven, Airport                               | 248233          | Eindhoven Airport                                |   0.0108620226645835
+ 506731          | Leiden, Centraal                                 | 53896           | Leiden Centraal                                  |   0.0108629055756115
+ 506732          | Leiden, Centraal                                 | 53896           | Leiden Centraal                                  |   0.0108629055756115
+ 1217163         | Delft, Station Delft (Perron F)                  | 1217165         | Delft, Station Delft (Perron I)                  |   0.0108982993972531
+ 1217161         | Delft, Station Delft (Perron H)                  | 1217162         | Delft, Station Delft (Perron E)                  |   0.0108983040595996
+ 1479658         | Eindhoven, Airport                               | 248233          | Eindhoven Airport                                |   0.0109188580953284
+ 1479658         | Eindhoven, Airport                               | stoparea:81663  | Eindhoven Airport                                |   0.0109188580953284
+ 1332984         | Emmen, Station (Perron A)                        | 1333859         | Emmen, Station (Perron L)                        |   0.0109435854434708
+ 1377602         | Haarlem, Station D                               | 357304          | Haarlem, Station                                 |   0.0109668235506796
+ 506801          | Leiden, Centraal                                 | 53896           | Leiden Centraal                                  |    0.010967915108122
+ 506766          | Leiden, Centraal                                 | 53896           | Leiden Centraal                                  |    0.010967915108122
+ 506826          | Leiden, Centraal                                 | 53896           | Leiden Centraal                                  |    0.010967915108122
+ 1331987         | Groningen, Hoofdstation (Perron W)               | 1331989         | Groningen, Hoofdstation (Perron Z)               |   0.0109714419084845
+ 1134317         | Rotterdam, Zuidplein Perron H                    | 1356087         | Rotterdam, Zuidplein Perron G                    |   0.0109731013410112
+ 1059129         | Haarlem, Station                                 | 1377659         | Haarlem, Station E                               |   0.0109829452354163
+ 1479281         | Sittard, Busstation Perron E                     | 1479373         | Sittard, Busstation Perron G                     |   0.0109978092659442
+ 1217108         | Naaldwijk, Busstation (Perron C)                 | 1217584         | Naaldwijk, Busstation (Perron E)                 |   0.0110014320246392
+ 1479366         | Heerlen, Busstation Perron B                     | 1479382         | Heerlen, Busstation Perron A                     |   0.0110178638224393
+ 521117          | Schiphol Airport                                 | 980501          | Schiphol, Airport                                |   0.0111143819334686
+ 103879          | Weesp, J.H.Leopoldhof                            | 1378772         | Weesp, J.H. Leopoldhof                           |    0.011118323816855
+ 103879          | Weesp, J.H.Leopoldhof                            | 360611          | Weesp, J.H. Leopoldhof                           |   0.0111394303013009
+ 1421036         | 's-Hertogenbosch, Centraal Station (K)           | 1421039         | 's-Hertogenbosch, Centraal Station (G)           |   0.0111514280679684
+ 1501483         | Rotterdam, Blaak                                 | 91834           | Rotterdam Blaak                                  |   0.0111576978535512
+ 1501482         | Rotterdam, Blaak                                 | 91834           | Rotterdam Blaak                                  |   0.0111576978535512
+ 91834           | Rotterdam Blaak                                  | NL:S:31008134   | Rotterdam, Blaak                                 |   0.0111576978535512
+ 1479385         | Heerlen, Busstation Perron E                     | 1479528         | Heerlen, Busstation Perron C                     |   0.0111619897546783
+ 1330994         | Assen, Station (Perron H)                        | 1332847         | Assen, Station (Perron B)                        |    0.011173297915533
+ 1501696         | Delft, Station Delft (Perron H)                  | 1501697         | Delft, Station Delft (Perron E)                  |   0.0111867033055347
+ 1100728         | Rotterdam, G.H. Betzweg                          | 1216680         | Rotterdam, GH Betzweg                            |   0.0112126271159371
+ 647592          | Valkenburg, Station Arriva Perron C              | 679735          | Valkenburg, Station Arriva Perron D              |   0.0112134128287153
+ 647592          | Valkenburg, Station Arriva Perron C              | 647716          | Valkenburg, Station Arriva Perron D              |   0.0112134128287153
+ 679695          | Valkenburg, Station Arriva Perron C              | 679735          | Valkenburg, Station Arriva Perron D              |   0.0113385548175394
+ 647716          | Valkenburg, Station Arriva Perron D              | 679695          | Valkenburg, Station Arriva Perron C              |   0.0113385548175394
+ 1217165         | Delft, Station Delft (Perron I)                  | 1501697         | Delft, Station Delft (Perron E)                  |   0.0113836867054939
+ 1479337         | Sittard, Busstation Perron I                     | 1479373         | Sittard, Busstation Perron G                     |   0.0114383946118852
+ 1421400         | Venlo, Station Perron C                          | 1421487         | Venlo, Station Perron F                          |   0.0114462730875021
+ 1420920         | Uden, Busstation (C)                             | 1420952         | Uden, Busstation (E)                             |   0.0114584802571907
+ 1479280         | Sittard, Busstation Perron E                     | 1479373         | Sittard, Busstation Perron G                     |   0.0115041170805733
+ 1479422         | Sittard, Busstation Perron D                     | 1479463         | Sittard, Busstation Perron B                     |    0.011515466127066
+ 327331          | Amsterdam, G.J. Scheurleerweg                    | 560715          | Amsterdam, G.J.Scheurleerweg                     |   0.0115220301911125
+ 1100728         | Rotterdam, G.H. Betzweg                          | 1216745         | Rotterdam, GH Betzweg                            |   0.0115269093188445
+ 1421006         | Oosterhout, Busstation (B)                       | 509020          | Oosterhout, Busstation (C)                       |   0.0115823274023725
+ 1421006         | Oosterhout, Busstation (B)                       | 677995          | Oosterhout, Busstation (C)                       |   0.0115823274023725
+ 404073          | Breda, Centraal Station (H)                      | 404082          | Breda, Centraal Station (M)                      |   0.0115898368773739
+ 1329909         | Utrecht, CS Jaarbeurszijde (Perron C10)          | 1400528         | Utrecht, CS Jaarbeurszijde (Perron C9)           |   0.0115941584926623
+ 1479290         | Maastricht, Station Perron C                     | 1479392         | Maastricht, Station Perron A                     |   0.0116089102941001
+ 1216558         | Maastricht, Station Perron G                     | 1216564         | Maastricht, Station Perron H                     |   0.0116595374125241
+ 44              | 's-Heerenberg, Busstation                        | NL:S:41790030   | 'S-Heerenberg, Busstation                        |   0.0117184023254459
+ 1331719         | Groningen, Hoofdstation (Perron T)               | 1378043         | Groningen, Hoofdstation (Perron I)               |   0.0117324734618739
+ 1479651         | Eindhoven, Airport                               | stoparea:81663  | Eindhoven Airport                                |   0.0117791673884446
+ 1479651         | Eindhoven, Airport                               | 248233          | Eindhoven Airport                                |   0.0117791673884446
+ 1331499         | Delfzijl, Station (Perron F)                     | 1334159         | Delfzijl, Station (Perron B)                     |   0.0117794259492109
+ 506759          | Leiden, Centraal                                 | 53896           | Leiden Centraal                                  |   0.0117998244057788
+ 506776          | Leiden, Centraal                                 | 53896           | Leiden Centraal                                  |   0.0117998244057788
+ 1479291         | Kerkrade, Parkstad Stadion Perron A              | 1479341         | Kerkrade, Parkstad Stadion Perron B              |   0.0118077712930967
+ 1217191         | Zoetermeer, Centrum West (Perron C)              | 1217604         | Zoetermeer, Centrum West (Perron F)              |   0.0118445987602058
+ 404080          | Breda, Centraal Station (K)                      | 404091          | Breda, Centraal Station (L)                      |   0.0118529060990625
+ 1331218         | Emmen, Station (Perron E)                        | 1332026         | Emmen, Station (Perron B)                        |   0.0118634584383777
+ 1332026         | Emmen, Station (Perron B)                        | 1333793         | Emmen, Station (Perron H)                        |   0.0118634584383777
+ 1331727         | Emmen, Station (Perron C)                        | 1480319         | Emmen, Station (Perron J)                        |   0.0118880609684904
+ 1331727         | Emmen, Station (Perron C)                        | 1332483         | Emmen, Station (Perron K)                        |   0.0118880609684904
+ 1329250         | Zeist, Station Driebergen-Zeist (Perron J)       | 1330443         | Zeist, Station Driebergen-Zeist (Perron F)       |   0.0118978097380216
+ 1135216         | Gorinchem, Station (perron A)                    | 3367            | Gorinchem, Station (perron G)                    |   0.0118992078990554
+ 1135221         | Gorinchem, Station (perron G)                    | 1215489         | Gorinchem, Station (perron A)                    |   0.0118992078990554
+ 1215489         | Gorinchem, Station (perron A)                    | 3367            | Gorinchem, Station (perron G)                    |   0.0118992078990554
+ 1215489         | Gorinchem, Station (perron A)                    | 3868            | Gorinchem, Station (perron G)                    |   0.0118992078990554
+ 1135216         | Gorinchem, Station (perron A)                    | 3868            | Gorinchem, Station (perron G)                    |   0.0118992078990554
+ 1135216         | Gorinchem, Station (perron A)                    | 1135221         | Gorinchem, Station (perron G)                    |   0.0118992078990554
+ 1479330         | Kerkrade, Busstation Perron F                    | 1479349         | Kerkrade, Busstation Perron E                    |   0.0119136626767873
+ 1216558         | Maastricht, Station Perron G                     | 1216573         | Maastricht, Station Perron F                     |   0.0119164718173835
+ 506812          | Leiden, Centraal                                 | 53896           | Leiden Centraal                                  |   0.0119402841912498
+ 506794          | Leiden, Centraal                                 | 53896           | Leiden Centraal                                  |   0.0119402841912498
+ 1378043         | Groningen, Hoofdstation (Perron I)               | 654943          | Groningen, Hoofdstation (Perron V)               |   0.0119413735944058
+ 1216523         | Maastricht, Station Perron A                     | 1479539         | Maastricht, Station Perron B                     |   0.0119453166302025
+ 1332742         | Veendam, Station (Perron A)                      | 1333007         | Veendam, Station (Perron B)                      |   0.0119494914136601
+ 1479309         | Sittard, Busstation Perron D                     | 1479463         | Sittard, Busstation Perron B                     |   0.0120230867878645
+ 1333799         | Assen, Selma Lagerlöflaan                        | 650041          | Assen, Selma Lagerloflaan                        |   0.0120289780629789
+ 1329839         | Nieuwegein, Stadscentrum (Perron C)              | 650662          | Nieuwegein, Stadscentrum (Perron F)              |   0.0120892802624033
+ 1101088         | Landsmeer, Van Beekstraat                        | 1377213         | Landsmeer, van Beekstraat                        |   0.0121031326242302
+ 404083          | Breda, Centraal Station (A)                      | 404085          | Breda, Centraal Station (W)                      |    0.012106610690957
+ 1216523         | Maastricht, Station Perron A                     | 1216564         | Maastricht, Station Perron H                     |   0.0121090916919927
+ 1135221         | Gorinchem, Station (perron G)                    | 3871            | Gorinchem, Station (perron A)                    |   0.0121131018406237
+ 3367            | Gorinchem, Station (perron G)                    | 3871            | Gorinchem, Station (perron A)                    |   0.0121131018406237
+ 3868            | Gorinchem, Station (perron G)                    | 3871            | Gorinchem, Station (perron A)                    |   0.0121131018406237
+ 506823          | Leiden, Centraal                                 | 53896           | Leiden Centraal                                  |   0.0121528290900205
+ 509020          | Oosterhout, Busstation (C)                       | 509110          | Oosterhout, Busstation (B)                       |   0.0121537553857139
+ 509110          | Oosterhout, Busstation (B)                       | 677995          | Oosterhout, Busstation (C)                       |   0.0121537553857139
+ 1331720         | Groningen, Hoofdstation (Perron U)               | 1331987         | Groningen, Hoofdstation (Perron W)               |   0.0121688888870275
+ 404076          | Breda, Centraal Station (G)                      | 404081          | Breda, Centraal Station (N)                      |   0.0121780691318979
+ 1479292         | Kerkrade, Parkstad Stadion Perron A              | 1479341         | Kerkrade, Parkstad Stadion Perron B              |   0.0122012796665277
+ 404074          | Breda, Centraal Station (F)                      | 404093          | Breda, Centraal Station (P)                      |   0.0122058613888745
+ 1420385         | Eindhoven, Beemdstraat/Hurksetraat               | 979230          | Eindhoven, Beemdstraat/Hurksestraat              |   0.0122111814910754
+ 1356132         | Utrecht, CS Jaarbeursplein (Perron G9)           | 1356138         | Utrecht, CS Jaarbeursplein (Perron G6)           |   0.0122450509011964
+ 1334090         | Gieten, OV Knooppunt N33/N34 (Perron B)          | 1378180         | Gieten, OV Knooppunt N33/N34 (Perron F)          |   0.0122585916954948
+ 103879          | Weesp, J.H.Leopoldhof                            | 664900          | Weesp, J.H. Leopoldhof                           |   0.0123104499341033
+ 324108          | Etten-Leur, Fr. van Eedenstraat                  | 324202          | Etten-Leur, Fr.van Eedenstraat                   |   0.0123510133359706
+ 1215495         | Gorinchem, Station (perron A)                    | 3868            | Gorinchem, Station (perron G)                    |   0.0123580938514591
+ 1215495         | Gorinchem, Station (perron A)                    | 3367            | Gorinchem, Station (perron G)                    |   0.0123580938514591
+ 1135221         | Gorinchem, Station (perron G)                    | 1215495         | Gorinchem, Station (perron A)                    |   0.0123580938514591
+ 1330412         | Zeist, Station Driebergen-Zeist (Perron D)       | 1330504         | Zeist, Station Driebergen-Zeist (Perron A)       |   0.0123660611920041
+ 1329986         | Utrecht, CS Jaarbeurszijde (Perron D3)           | 1330234         | Utrecht, CS Jaarbeurszijde (Perron C6)           |   0.0123878360498823
+ 1329908         | Utrecht, CS Jaarbeurszijde (Perron C6)           | 1329986         | Utrecht, CS Jaarbeurszijde (Perron D3)           |   0.0123878360498823
+ 1330967         | Emmen, Station (Perron D)                        | 1332984         | Emmen, Station (Perron A)                        |   0.0123909097621976
+ 404079          | Breda, Centraal Station (B)                      | 404089          | Breda, Centraal Station (V)                      |   0.0123955424018327
+ 327334          | Amsterdam, G.J. Scheurleerweg                    | 560698          | Amsterdam, G.J.Scheurleerweg                     |   0.0124001923971638
+ 7123            | Grou, Sporthal ZZ                                | 7312            | Grou, Sporthal NZ                                |   0.0124359942122574
+ 1479464         | Gulpen, Busstation Perron D                      | 784126          | Gulpen, Busstation Perron A                      |   0.0124362027865137
+ 1331990         | Groningen, Hoofdstation (Perron Y)               | 654943          | Groningen, Hoofdstation (Perron V)               |   0.0124468453144261
+ 1479438         | Sittard, Busstation Perron C                     | 1479463         | Sittard, Busstation Perron B                     |   0.0124708194939083
+ 1479415         | Kerkrade, Busstation Perron B                    | 1479432         | Kerkrade, Busstation Perron A                    |   0.0124792112011812
+ 54723           | Rotterdam Blaak                                  | NL:S:31008134   | Rotterdam, Blaak                                 |    0.012513651945004
+ 1501483         | Rotterdam, Blaak                                 | 54723           | Rotterdam Blaak                                  |    0.012513651945004
+ 1501482         | Rotterdam, Blaak                                 | 54723           | Rotterdam Blaak                                  |    0.012513651945004
+ 1134169         | Baarle-Nassau, Hoogbraak                         | 388021          | Baarle Nassau, Hoogbraak                         |   0.0125391506702398
+ 357392          | Druten, Hermes garage                            | 8475            | Druten, Hermes Garage                            |   0.0125396476292051
+ 1241363         | Hoogvliet Rotterdam, Hoogvliet Metro Busperron A | 1501053         | Hoogvliet Rotterdam, Hoogvliet Metro Busperron D |   0.0125594687200313
+ 1241363         | Hoogvliet Rotterdam, Hoogvliet Metro Busperron A | 1501252         | Hoogvliet Rotterdam, Hoogvliet Metro Busperron D |   0.0125594687200313
+ 1501052         | Hoogvliet Rotterdam, Hoogvliet Metro Busperron A | 1501252         | Hoogvliet Rotterdam, Hoogvliet Metro Busperron D |   0.0125594687200313
+ 1501052         | Hoogvliet Rotterdam, Hoogvliet Metro Busperron A | 1501053         | Hoogvliet Rotterdam, Hoogvliet Metro Busperron D |   0.0125594687200313
+ 1217193         | Zoetermeer, Centrum West (Perron B)              | 1217603         | Zoetermeer, Centrum West (Perron E)              |   0.0125867372551885
+ 1356212         | Den Haag, Arnold Spoelplein (spoor 2)            | 1356213         | Den Haag, Arnold Spoelplein (spoor 1)            |   0.0126292773709196
+ 1479281         | Sittard, Busstation Perron E                     | 1479374         | Sittard, Busstation Perron G                     |   0.0126489046372584
+ 1331727         | Emmen, Station (Perron C)                        | 979088          | Emmen, Station (Perron J)                        |    0.012661787318537
+ 1332291         | Gieten, OV Knooppunt N33/N34 (Perron E)          | 1378180         | Gieten, OV Knooppunt N33/N34 (Perron F)          |    0.012699686780348
+ 1420730         | Amsterdam, G.v. Ledenberchstraat                 | 15323           | Amsterdam, G. v.Ledenberchstraat                 |   0.0127051101518234
+ 1331727         | Emmen, Station (Perron C)                        | 1334129         | Emmen, Station (Perron F)                        |   0.0127222736129183
+ 1133639         | Rotterdam, Zuidplein perron K                    | 1134318         | Rotterdam, Zuidplein perron I                    |   0.0127391820918502
+ 1356134         | Utrecht, CS Jaarbeursplein (Perron G2)           | 1356138         | Utrecht, CS Jaarbeursplein (Perron G6)           |   0.0127789660047989
+ 1356133         | Utrecht, CS Jaarbeursplein (Perron G1)           | 1356137         | Utrecht, CS Jaarbeursplein (Perron G5)           |   0.0127789665975773
+ 679791          | Gulpen, Busstation Perron C                      | 784126          | Gulpen, Busstation Perron A                      |   0.0127906275056111
+ 1332066         | Appingedam, Busstation (Perron E)                | 1333095         | Appingedam, Busstation (Perron A)                |   0.0128389598020081
+ 1330408         | Zeist, Station Driebergen-Zeist (Perron H)       | 1400575         | Zeist, Station Driebergen-Zeist (Perron E)       |   0.0128455559150195
+ 679279          | Roermond, Station Perron D                       | 679337          | Roermond, Station Perron A                       |   0.0129681636972633
+ 404079          | Breda, Centraal Station (B)                      | 404083          | Breda, Centraal Station (A)                      |   0.0130068175603345
+ 404078          | Breda, Centraal Station (E)                      | 404084          | Breda, Centraal Station (R)                      |   0.0130536023779603
+ 1331463         | Groningen, Hoofdstation (Perron E)               | 1331717         | Groningen, Hoofdstation (Perron M)               |    0.013135373861152
+ 363399          | Druten, Hermes garage                            | 8790            | Druten, Hermes Garage                            |   0.0131433076918122
+ 1479280         | Sittard, Busstation Perron E                     | 1479374         | Sittard, Busstation Perron G                     |   0.0131444690458405
+ 1059129         | Haarlem, Station                                 | 1377603         | Haarlem, Station F                               |   0.0131510236912412
+ 1479280         | Sittard, Busstation Perron E                     | 1479438         | Sittard, Busstation Perron C                     |    0.013151411023563
+ 646399          | Gulpen, Busstation Perron A                      | 679791          | Gulpen, Busstation Perron C                      |   0.0131703234388116
+ 1216909         | Den Haag, Leyenburg (Perron H)                   | 1217477         | Den Haag, Leyenburg (Perron G)                   |   0.0131772745684701
+ 1479464         | Gulpen, Busstation Perron D                      | 646399          | Gulpen, Busstation Perron A                      |    0.013212960119811
+ 1440564         | Zoetermeer, Van Diestlaan                        | 98650           | Zoetermeer, van Diestlaan                        |   0.0132254995857485
+ 1330148         | Utrecht, Station Leidsche Rijn (Perron E)        | 1330150         | Utrecht, Station Leidsche Rijn (Perron C)        |   0.0132655963809587
+ 1330148         | Utrecht, Station Leidsche Rijn (Perron E)        | 1330149         | Utrecht, Station Leidsche Rijn (Perron D)        |   0.0132715753130926
+ 1100890         | Rotterdam, G.H. Betzweg                          | 1216745         | Rotterdam, GH Betzweg                            |   0.0132883996184145
+ 1217076         | Zoetermeer, Rokkeveenseweg-zuid                  | 327366          | Zoetermeer, Rokkeveenseweg Zuid                  |   0.0133345821297528
+ 1238778         | Haarlem, Station                                 | 1377659         | Haarlem, Station E                               |   0.0133484596093048
+ 1377659         | Haarlem, Station E                               | 940105          | Haarlem, Station                                 |   0.0133484596093048
+ 1177135         | Utrecht, Station Leidsche Rijn (Perron F)        | 1330149         | Utrecht, Station Leidsche Rijn (Perron D)        |   0.0133725709742164
+ 1421038         | 's-Hertogenbosch, Centraal Station (I)           | 1421041         | 's-Hertogenbosch, Centraal Station (E)           |   0.0134087838258141
+ 1479438         | Sittard, Busstation Perron C                     | 1479473         | Sittard, Busstation Perron A                     |   0.0134119395576518
+ 1421370         | Breda, Centraal Station (S)                      | 404077          | Breda, Centraal Station (D)                      |   0.0134125256483711
+ 3871            | Gorinchem, Station (perron A)                    | 98293           | Gorinchem, Station (perron C)                    |   0.0134588278526984
+ 3871            | Gorinchem, Station (perron A)                    | 98294           | Gorinchem, Station (perron C)                    |   0.0134588278526984
+ 1401105         | Groningen, Zernike Noord (Perron A)              | 1401126         | Groningen, Zernike Noord (Perron E)              |    0.013498633940678
+ 1331719         | Groningen, Hoofdstation (Perron T)               | 654943          | Groningen, Hoofdstation (Perron V)               |   0.0135034249021959
+ 1215495         | Gorinchem, Station (perron A)                    | 98293           | Gorinchem, Station (perron C)                    |   0.0135070319482943
+ 1215495         | Gorinchem, Station (perron A)                    | 98294           | Gorinchem, Station (perron C)                    |   0.0135070319482943
+ 404075          | Breda, Centraal Station (J)                      | 404091          | Breda, Centraal Station (L)                      |    0.013512354780858
+ 1421039         | 's-Hertogenbosch, Centraal Station (G)           | 1421043         | 's-Hertogenbosch, Centraal Station (C)           |    0.013523172431016
+ 1420901         | 's-Hertogenbosch, Centraal Station (J)           | 1421042         | 's-Hertogenbosch, Centraal Station (F)           |   0.0135428118581273
+ 1332805         | Gieten, OV Knooppunt N33/N34 (Perron G)          | 1333307         | Gieten, OV Knooppunt N33/N34 (Perron A)          |   0.0135546570673947
+ 1331961         | Hoogeveen, Station (Perron F)                    | 1333890         | Hoogeveen, Station (Perron G)                    |   0.0135562243663913
+ 1332805         | Gieten, OV Knooppunt N33/N34 (Perron G)          | 1377984         | Gieten, OV Knooppunt N33/N34 (Perron H)          |   0.0135698609449794
+ 1331961         | Hoogeveen, Station (Perron F)                    | 1334195         | Hoogeveen, Station (Perron B)                    |   0.0136088766398809
+ 

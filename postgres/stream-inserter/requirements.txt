@@ -1,0 +1,5 @@
+zmq
+bs4
+psycopg2-binary
+iso8601
+lxml

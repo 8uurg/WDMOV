@@ -1,0 +1,1 @@
+docker run -it --network postgres_default stream-inserter
