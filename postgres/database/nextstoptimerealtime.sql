@@ -69,3 +69,4 @@ SELECT s.stop_id, min(arr_time - interval '1 second' * COALESCE(rtts.punctuality
     AND   arr_time - interval '1 second' * COALESCE(rtts.punctuality, 0) > now()
     GROUP BY s.stop_id;
 -- Time: 9.249 ms
+-- Uses CREATE INDEX idx_stop_times_stop_id ON stop_times (stop_id);
