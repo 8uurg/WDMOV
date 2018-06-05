@@ -5,12 +5,17 @@
 import pymongo as mongo
 import pandas  as pd
 import datetime
-
+import atexit
 from pymongo import MongoClient
 
 client = MongoClient("localhost", 27017)
 db = client.WDMOV
 
+def exit_handler():
+    client.close()
+
+
+atexit.register(exit_handler)
 
 def import_stops():
     db.stops.drop()
@@ -33,7 +38,8 @@ def import_stops():
 
 def import_routes():
     db.routes.drop()
-    routes_data = pd.read_csv("../data/gtfs-openov-nl/routes.txt")
+    routes_data = pd.read_csv("../data/gtfs-openov-nl/routes.txt",
+                              dtype={"route_id": str, "route_short_name": str})
     routes_dicts = routes_data.to_dict(orient="records")
     db.routes.insert(routes_dicts)
     db.routes.create_index([("route_id", mongo.ASCENDING)])
@@ -42,7 +48,8 @@ def import_routes():
 
 def import_trips():
     db.trips.drop()
-    trips_data = pd.read_csv("../data/gtfs-openov-nl/trips.txt")
+    trips_data = pd.read_csv("../data/gtfs-openov-nl/trips.txt",
+                             dtype={"route_id": str, "trip_id": str})
     trips_dicts = trips_data.to_dict(orient="records")
     db.trips.insert(trips_dicts)
     db.trips.create_index([("route_id", mongo.ASCENDING)])
@@ -50,8 +57,9 @@ def import_trips():
 
 
 def import_stop_times():
-    day = datetime.datetime(year=2018, month=6, day=4)
-
+    day = datetime.datetime.now()
+    day = day.replace(hour=0, minute=0, second=0, microsecond=0)
+    chunk_size = 200000
     def timestamp_to_date(timestamp):
         # Timestamps can be later than midnight, since it is the same operating
         # day.
@@ -64,18 +72,17 @@ def import_stop_times():
                              dtype={"stop_id": str, "trip_id": str},
                              parse_dates=["arrival_time", "departure_time"],
                              date_parser=timestamp_to_date,
-                             chunksize=20000)
+                             chunksize=chunk_size)
+
     i = 0
     for stop_time_chunk in stop_times:
-
         stop_times_dicts = stop_time_chunk.to_dict(orient="record")
-        if i % 100000 == 0:
-            print(stop_times_dicts[0])
-            print("Iteration: %i" % i)
+        print("Iteration: %i" % i)
 
         db.stop_times.insert(stop_times_dicts)
-        i += 20000
+        i += chunk_size
 
+    print("Creating indices")
     db.stop_times.create_index([("stop_id", mongo.ASCENDING)])
     db.stop_times.create_index([("departure_time", mongo.ASCENDING)])
     db.stop_times.create_index([("trip_id", mongo.ASCENDING)])

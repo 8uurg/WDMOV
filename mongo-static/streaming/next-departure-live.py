@@ -1,5 +1,4 @@
-import datetime
-from time import time
+from datetime import datetime
 
 from pymongo import MongoClient
 import atexit
@@ -17,11 +16,11 @@ ewi_building = [4.373502, 51.998847]
 
 current_location = ewi_building
 maximum_departures = 10
-current_time = datetime.datetime.now()
-current_time = current_time.replace(hour=15, minute=30, second=0,
+current_time = datetime.now()
+current_time = current_time.replace(hour=17, minute=5, second=0,
                                     microsecond=0)
 
-next_departure_pipeline = [
+next_departure_with_delay_pipeline = [
     { # Find the nearest stops
        "$geoNear": {
            "spherical": True,
@@ -58,18 +57,38 @@ next_departure_pipeline = [
     { # Limit the maximum number of fields (because sort is right before limit
         # the query can be optimized more).
         "$limit": maximum_departures
-    }]
+    },
+    { # Lookup the realtime_trip_id
+        "$lookup": {
+            "from": "trips",
+            "localField": "time.trip_id",
+            "foreignField": "trip_id",
+            "as": "trip"
+        }
+    },
+    {
+        "$unwind": "$trip"
+    },
+    { # Lookup the realtime data, if it exists
+        "$lookup": {
+            "from": "realtime",
+            "localField": "trip.realtime_trip_id",
+            "foreignField": "realtime_trip_id",
+            "as": "realtime"
+        }
+    }
+    ]
 
 
-runtimes = []
-for i in range(0, 200):
-    start = time()
-    db.stops.aggregate(next_departure_pipeline)
-    end = time()
-    runtimes.append((end - start) * 1000)
+# runtimes = []
+# for i in range(0, 200):
+#     start = time()
+#     db.stops.aggregate(next_departure_with_delay_pipeline)
+#     end = time()
+#     runtimes.append((end - start) * 1000)
 
-print(runtimes)
-print("On average the query takes: %f ms" % (sum(runtimes)/len(runtimes)))
+# print(runtimes)
+# print("On average the query takes: %f ms" % (sum(runtimes)/len(runtimes)))
 
-for departure in db.stops.aggregate(next_departure_pipeline):
+for departure in db.stops.aggregate(next_departure_with_delay_pipeline):
     print(departure)

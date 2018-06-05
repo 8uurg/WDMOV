@@ -1,10 +1,17 @@
 from time import time
 from bson.code import Code
+import atexit
 
 from pymongo import MongoClient
 
 client = MongoClient("localhost", 27017)
 db = client.WDMOV
+
+def exit_handler():
+    client.close()
+
+
+atexit.register(exit_handler)
 
 map_group_trips = \
     Code("""
@@ -33,13 +40,13 @@ map_calculate_avg_times_per_trip = \
             const stop_times = this.value.stop_times;
             emit(0, stop_times);
             return;
-            if (stop_times) {
+            if (stop_times && stop_times.length > 1){
                 var avg = 0.0;
                 for(i = 1; i < stop_times.length; i++) {
                     avg = (i-1)/i * avg 
                              + 1/i * (
-                             (stop_times[i]["arrival"].getTime() 
-                            - stop_times[i-1]["departure"].getTime())/1000);
+                             (stop_times[i]["arrival"] 
+                            - stop_times[i-1]["departure"])/1000);
                 }
                 emit(0, avg);
             }
