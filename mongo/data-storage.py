@@ -1,7 +1,3 @@
-# Start the mongo docker container using:
-# `docker run --name wdmov-mongo -p 27017:27017 -v ~/WDMOV/data/mongo-data:/data/db -d mongo`
-
-
 import pymongo as mongo
 import pandas  as pd
 import datetime
