@@ -68,3 +68,16 @@ SELECT s.stop_id, min(arr_time - interval '1 second' * COALESCE(rtts.punctuality
     WHERE s.stop_name LIKE '%Mekelpark%' 
     AND   arr_time - interval '1 second' * COALESCE(rtts.punctuality, 0) > now()
     GROUP BY s.stop_id;
+-- Time: 9.249 ms
+SELECT s.stop_id, min(arr_time - interval '1 second' * COALESCE(rtts.punctuality, 0)) as min_adj_arr_time, min(arr_time) as min_arr_time
+    FROM stop_times as st
+    JOIN stops as s ON st.stop_id = s.stop_id
+    JOIN trips as tr ON tr.trip_id = st.trip_id 
+    LEFT JOIN 
+        -- We need the extra column. So subquery... Aaaaa.
+       (SELECT dataownercode::text || ':' || lineplanningnumber::text || ':' || journeynumber::text as realtime_trip_id, ts.* FROM tripstatus as ts)
+    as rtts
+    ON rtts.realtime_trip_id = tr.realtime_trip_id
+    WHERE s.stop_name LIKE '%Mekelpark%' 
+    AND   arr_time - interval '1 second' * COALESCE(rtts.punctuality, 0) > timestamp '2018-06-04 20:55'
+    GROUP BY s.stop_id;

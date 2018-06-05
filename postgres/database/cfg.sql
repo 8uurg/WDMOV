@@ -8,7 +8,7 @@
 --
 CREATE TABLE tripstatus (
     journeynumber integer,              -- journeynumber
-    lineplanningnumber integer,         -- lineplanningnumber
+    lineplanningnumber varchar(6),      -- lineplanningnumber, usually an int but not always for some reason.
     timestamp timestamp,                -- timestamp
     stop_id varchar(20),                -- either userstopcode or something the stop_id of the first stop.
                                         -- might be a foreign key, but I am extremely unsure

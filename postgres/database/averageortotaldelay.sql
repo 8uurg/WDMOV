@@ -1,5 +1,8 @@
 -- Current delay, ahead of schedule to 0.
-SELECT avg(CASE WHEN punctuality > 0 THEN punctuality ELSE 0 END) FROM tripstatus WHERE punctuality IS NOT NULL;
+SELECT avg(CASE WHEN punctuality > 0 THEN punctuality ELSE 0 END) 
+FROM tripstatus 
+WHERE punctuality IS NOT NULL 
+AND timestamp > now() - interval '5 minutes';
 --          avg
 -- ---------------------
 --  47.9385714285714286

@@ -11,12 +11,12 @@ import iso8601 # Dates, I would have preferred the fruit over this.
 
 channels = [
     Envelopes.KV6_ARR,
-    #Envelopes.KV6_CXX,
-    #Envelopes.KV6_DITP,
-    #Envelopes.KV6_EBS,
-    #Envelopes.KV6_GVB,
-    #Envelopes.KV6_RIG,
-    #Envelopes.KV6_QBUZZ,
+    Envelopes.KV6_CXX,
+    Envelopes.KV6_DITP,
+    Envelopes.KV6_EBS,
+    Envelopes.KV6_GVB,
+    Envelopes.KV6_RIG,
+    Envelopes.KV6_QBUZZ,
 ]
 
 conn = psycopg2.connect(user="postgres", host="db")
@@ -82,7 +82,12 @@ while True:
     print("Recieved message on {}".format(topic))
     # print(data)
     soup = BeautifulSoup(data, features="xml")
-    posinfo = soup('VV_TM_PUSH')[0]('KV6posinfo')[0]
+    posinfo = soup.find('VV_TM_PUSH')
+    if posinfo is None: 
+        continue
+    posinfo = posinfo.find('KV6posinfo')
+    if posinfo is None: 
+        continue
     begin_batch()
     for vinfo in posinfo.find_all(recursive=False):
         status = vinfo.name

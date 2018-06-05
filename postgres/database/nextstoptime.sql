@@ -84,3 +84,13 @@ SELECT t.trip_id, t.stop_id FROM
     JOIN stops as s ON ts.stop_id = s.stop_id
     WHERE s.stop_name LIKE '%Mekelpark%'; 
 -- Time: 7.579 ms
+
+-- Simple single result for a stop that matches.
+SELECT s.stop_id, arr_time
+     FROM stop_times as st
+     JOIN stops as s ON st.stop_id = s.stop_id
+     WHERE s.stop_name LIKE '%Mekelpark%' 
+     AND   arr_time > now()
+     ORDER BY arr_time
+     LIMIT 1;
+-- Time: 6.656 ms
