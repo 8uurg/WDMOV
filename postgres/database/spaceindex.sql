@@ -1,1 +1,0 @@
-CREATE INDEX stop_locations_idx ON stops USING ll_to_earth(stop_lat, stop_lon))

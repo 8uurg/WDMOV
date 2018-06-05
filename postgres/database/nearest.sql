@@ -110,7 +110,7 @@ ORDER BY distance;
 -- Time: 17.862 ms
 
 -- + With index
-
+CREATE INDEX stop_locations_idx ON stops USING ll_to_earth(stop_lat, stop_lon))
 -- postgres=# CREATE INDEX loc_stops ON stops USING gist(geom);
 -- CREATE INDEX
 -- Time: 297.606 ms

@@ -16,3 +16,5 @@ CREATE TABLE tripstatus (
 -- a lot of status versions have more data than the above table.
 -- since we do not need it (punctuality is more important)
 -- it is being thrown away. Probably useful for other things though.
+
+-- Note, this is already copied into cfg.sql
