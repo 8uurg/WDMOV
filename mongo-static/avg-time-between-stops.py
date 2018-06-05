@@ -10,7 +10,6 @@ map_group_trips = \
     Code("""
         function() {
             emit(this.trip_id, {
-                trip_id: this.trip_id,
                 seq_num: this.stop_sequence,
                 arrival: this.arrival_time,
                 departure: this.departure_time
@@ -21,9 +20,8 @@ map_group_trips = \
 reduce_sort = \
     Code("""
         function(trip, times) {
-            times.sort((a, b) => a.seq_num - b.seq_num)
-            return {trip_id: trip, 
-                    stop_times: times};
+            times.slice().sort((a, b) => a.seq_num - b.seq_num)
+            return times;
         }
     """)
 
@@ -33,13 +31,15 @@ map_calculate_avg_times_per_trip = \
     Code("""
         function() {
             const stop_times = this.value.stop_times;
+            emit(0, stop_times);
+            return;
             if (stop_times) {
                 var avg = 0.0;
                 for(i = 1; i < stop_times.length; i++) {
                     avg = (i-1)/i * avg 
                              + 1/i * (
-                             (stop_times[i].arrival 
-                                        - stop_times[i-1].departure)/1000);
+                             (stop_times[i]["arrival"].getTime() 
+                            - stop_times[i-1]["departure"].getTime())/1000);
                 }
                 emit(0, avg);
             }
@@ -63,16 +63,18 @@ else:
 db.calculate_avg_time_between_stops.drop()
 start = time()
 
+db.selected_trips = db.stop_times.find({})
+
 if group_trips is None:
-    group_trips = db.stop_times\
+    group_trips = db.limited_stop_times\
         .map_reduce(map_group_trips, reduce_sort, "group_trips")
 
 avg_time_between_stops_result = group_trips\
     .map_reduce(map_calculate_avg_times_per_trip, reduce_overall_avg,
                 "calculate_avg_time_between_stops")
 
-avg_time_between_stops = avg_time_between_stops_result.find()[0]["value"]
+avg_time_between_stops = avg_time_between_stops_result.find()
 end = time()
 
-print("The average time between stops is: %f seconds" % avg_time_between_stops)
+print("The average time between stops is: %s seconds" % avg_time_between_stops)
 print("The query took %f seconds" % (end-start))
