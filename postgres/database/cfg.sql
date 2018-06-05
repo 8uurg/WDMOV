@@ -3,6 +3,28 @@
 --
 \timing
 
+--
+-- Configuration related to real time streaming data.
+--
+CREATE TABLE tripstatus (
+    journeynumber integer,              -- journeynumber
+    lineplanningnumber integer,         -- lineplanningnumber
+    timestamp timestamp,                -- timestamp
+    stop_id varchar(20),                -- either userstopcode or something the stop_id of the first stop.
+                                        -- might be a foreign key, but I am extremely unsure
+                                        -- as the documentation is unclear about this.
+    punctuality int,                    -- punctuality in seconds.
+                                        --  < 0 is ahead of schedule, > 0 is behind schedule, on schedule is = 0.
+    status varchar(15),                 -- ARRIVAL, DELAY, DEPARTURE, ONROUTE, ONSTOP
+    dataownercode varchar(10),           -- Which service provider is this status from?
+    PRIMARY KEY(dataownercode, lineplanningnumber, journeynumber)
+);
+ALTER TABLE tripstatus OWNER TO postgres;
+-- a lot of status versions have more data than the above table.
+-- since we do not need it (punctuality is more important)
+-- it is being thrown away. Probably useful for other things though.
+
+
 CREATE TABLE routes (
     route_id integer PRIMARY KEY,
     agency_id text,
@@ -76,3 +98,29 @@ ALTER TABLE stop_times OWNER TO postgres;
 -- COPY stops FROM '/data/stops.txt' WITH (format csv)
 -- COPY trips FROM '/data/trips.txt' WITH (format csv)
 -- COPY stop_times FROM '/data/stop_times.txt' WITH (format csv)
+
+--
+-- Modify for postgis.
+--
+
+-- ALTER TABLE stops ADD COLUMN geom geography(Point, 4326);
+-- UPDATE stops SET geom = ST_SetSrid(ST_MakePoint(stop_lon, stop_lat), 4326);
+-- NOTE: this does not work before postgis is intialized in the DBMS.
+--       so it will have to be intitialized at a later point.
+
+--
+-- For stop times. 
+-- 
+
+-- Arrival time is a string which is not easily copied formatted.
+-- This could be done as preprocessing
+ALTER TABLE stop_times ADD COLUMN arr_time timestamp;
+UPDATE stop_times SET arr_time = current_date + arrival_time::interval;
+-- UPDATE 16266327
+-- Time: 1394917.932 ms (23:14.918)
+-- Time measurements are for the Europe/Amsterdam timezone.
+-- Default would otherwise be GMT, which would give wrong results. 
+SET TIME ZONE "Europe/Amsterdam";
+
+-- Indices other than primary keys are located in the sql files in which they are
+-- used, or their own file.

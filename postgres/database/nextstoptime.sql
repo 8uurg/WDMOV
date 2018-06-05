@@ -1,6 +1,8 @@
--- Before
+-- Some adjustments to the data. Can also be part of a view I guess.
+
 ALTER TABLE stop_times ADD COLUMN arr_time timestamp;
 UPDATE stop_times SET arr_time = current_date + arrival_time::interval;
+
 -- Kinda important apparently.
 SET TIME ZONE "Europe/Amsterdam";
 -- Using just time gives an ERROR: date/time field value out of range: "24:50:22" (AAAAAAA)
@@ -19,11 +21,14 @@ CREATE INDEX idx_stop_times_stop_id ON stop_times (stop_id);
 -- ALL 
 --
 
+-- May return multiple results per stop of they are at the same time
+--  I did not expect this to occur, but trips sometimes have duplicates apparently.
+
 -- FIND
 SELECT stop_id, min(arr_time) FROM stop_times WHERE arr_time > now()::timestamp GROUP BY stop_id;
 
--- COLLECT MORE INFO.
-SELECT t.trip_id, t.stop_id FROM 
+-- COLLECT MORE INFO, namely the trip id.
+SELECT t.trip_id, t.stop_id, s.min_arr_time FROM 
     (SELECT stop_id, min(arr_time) as min_arr_time
      FROM stop_times 
      WHERE arr_time > now()

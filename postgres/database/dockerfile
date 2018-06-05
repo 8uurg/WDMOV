@@ -2,3 +2,4 @@ FROM mdillon/postgis
 # postgis = postgres + postgis lib.
 COPY cfg.sql /docker-entrypoint-initdb.d/
 # Make sure data is mounted at /data via ovcsvdata!
+# The compose file should have done this automatically.

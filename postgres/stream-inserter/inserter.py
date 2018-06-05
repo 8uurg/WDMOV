@@ -7,6 +7,7 @@ import atexit
 from const import Envelopes, BISON
 from bs4 import BeautifulSoup
 import psycopg2
+import iso8601 # Dates, I would have preferred the fruit over this.
 
 channels = [
     Envelopes.KV6_ARR,
@@ -18,8 +19,7 @@ channels = [
     #Envelopes.KV6_QBUZZ,
 ]
 
-#conn = psycopg2.connect(user="postgres", host="db")
-#cur = conn.cursor()
+conn = psycopg2.connect(user="postgres", host="db")
 
 context = zmq.Context.instance()
 sock = context.socket(socket_type=zmq.SUB)
@@ -34,8 +34,39 @@ def exit_handler():
         print("Unsubscribing from %s" % ch)
         sock.unsubscribe(ch)
     context.destroy()
-    # conn.close()
+    conn.close()
 
+currcur = None
+
+def begin_batch():
+    global currcur
+    currcur = conn.cursor()
+
+def process(journeynumber, lineplanningnumber, timestamp, 
+             stop_id, punctuality, status, dataownercode):
+    global currcur
+    # Special query! Uses a concept usually described as upsert.
+    # Used the following to iron out the details.
+    # https://stackoverflow.com/questions/40572126/possible-to-upsert-in-postgres-on-conflict-on-exactly-one-of-2-columns
+    currcur.execute("""INSERT INTO tripstatus (journeynumber, lineplanningnumber, timestamp, stop_id, punctuality, status, dataownercode) 
+                       VALUES (%s,%s,%s,%s,%s,%s,%s) 
+                       ON CONFLICT (dataownercode, lineplanningnumber, journeynumber)
+                       DO UPDATE SET
+                            timestamp     = EXCLUDED.timestamp, 
+                            stop_id       = EXCLUDED.stop_id, 
+                            punctuality   = EXCLUDED.punctuality, 
+                            status        = EXCLUDED.status, 
+                            dataownercode = EXCLUDED.dataownercode
+                        WHERE
+                            tripstatus.timestamp < EXCLUDED.timestamp
+                       ;""", 
+                       (journeynumber, lineplanningnumber, timestamp, stop_id, punctuality, status, dataownercode))
+
+def finish_batch():
+    global conn
+    global currcur
+    conn.commit()
+    currcur.close()
 # def insert_into_db(journeynumber, lineplanningnumber, timestamp, 
 #             stop_id, punctuality, status, dataownercode):
 #     # perform an UPSERT: insert if value with the primary key exists yet.
@@ -52,6 +83,7 @@ while True:
     # print(data)
     soup = BeautifulSoup(data, features="xml")
     posinfo = soup('VV_TM_PUSH')[0]('KV6posinfo')[0]
+    begin_batch()
     for vinfo in posinfo.find_all(recursive=False):
         status = vinfo.name
         journeynumber = vinfo.find('journeynumber').text
@@ -62,5 +94,9 @@ while True:
         dataownercode = vinfo.find('dataownercode').text
         punctuality = vinfo.find('punctuality')
         punctuality = None if punctuality is None else punctuality.text
-        print(f"[{timestamp}] Journey {journeynumber} [{lineplanningnumber}] is now {status} at {stop_id}, it is currently {punctuality} s behind schedule.")
+        parsed_timestamp = iso8601.parse_date(timestamp)
+        print(f"[{parsed_timestamp}] Journey {journeynumber} [{lineplanningnumber}] is now {status} at {stop_id}, it is currently {punctuality} s behind schedule.")
+        process(journeynumber, lineplanningnumber, parsed_timestamp, 
+             stop_id, punctuality, status, dataownercode)
+    finish_batch()
 

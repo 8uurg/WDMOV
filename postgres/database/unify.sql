@@ -1,3 +1,9 @@
+--
+-- A fun query that tries to find out what stops can maybe be merged.
+-- Not actually used, but still interesting. Left it here for people
+-- to enjoy and look at.
+--
+
 SELECT a.stop_id, a.stop_name, b.stop_id, b.stop_name, 
     earth_distance(ll_to_earth(a.stop_lat, a.stop_lon), 
                    ll_to_earth(b.stop_lat, b.stop_lon)) 
@@ -10,4 +16,4 @@ WHERE
 ORDER BY distance 
 LIMIT 10;
 
--- TODO, query postgis style.
+-- Maybe TODO, query postgis style, because this is slow.
